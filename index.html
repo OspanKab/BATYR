@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>BATYR</title>
+	<link rel="icon" href="images/logo1.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnMj8Xc5_jA0tqVHCoFHCk-2sHt4imItA&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+</head>
+<body id="asd">
+	<header>
+		<div class="header__background__image" id="head">
+			<div class="header__background__color">
+				<div class="head">
+					<img src="images/BATYR_Logo.png" class="batyr__logo" data-aos="fade-down" onclick="window.location.reload()">
+					<div class="for_brave" data-aos="fade-down">for brave and determined</div>
+				</div>
+
+				<div class="work_your" data-aos="fade-down">Work your way from</div>
+				<div class="work_your2" data-aos="fade-down">Work your</div>
+				<div class="from" data-aos="fade-down">way from</div>
+				<div class="a_beginner" data-aos="fade-down">a beginner to professional</div>
+				<div class="a_beginner2" data-aos="fade-down">a beginner to</div>
+				<div class="professional" data-aos="fade-down">professional</div>
+
+				<div class="menu" data-aos="fade-down">
+					<a class="workouts" href="#workouts">workouts</a>
+					<a class="nutrition" href="#nutrition">nutrition</a>
+					<a class="sleep" href="#sleep">sleep</a>
+					<a class="logIn" href="#popup"
+						onclick="log__in(this)">log in</a>
+				</div>
+				
+				<div class="platforms" data-aos="fade-down">
+					<a href="https://www.apple.com/app-store/" target="_blank">
+						<div class="appStore">
+							<img src="images/Apple_Icon.png">
+							<div class="download_on_the">download on the</div>
+							<div class="app_store">app store</div>
+						</div>
+					</a>
+					<a href="https://play.google.com/store/apps/" target="_blank">
+						<div class="googlePlay">
+							<img src="images/Google_Play_Icon.png">
+							<div class="get_it_on">get it on</div>
+							<div class="google_play">google play</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="menu2" data-aos="fade-down">
+					<a class="workouts" href="#workouts">workouts</a>
+					<a class="nutrition" href="#nutrition">nutrition</a>
+					<a class="sleep" href="#sleep">sleep</a>
+					<a class="logIn" href="#popup"
+						onclick="scro(this)">log in</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<img src="images/Diagonal_Line.png" class="Diagonal_Line" data-aos="fade-right">
+		<img src="images/New_Level_Photo.png" class="New_Level_Photo" data-aos="fade-right">
+		<div class="rectangle1">
+			<img src="images/Plus1.png" class="plus1" data-aos="fade-right">
+			<img src="images/Plus2.png" class="plus2" data-aos="fade-right">
+			<div class="new_level" data-aos="fade-right">new level</div>
+			<div class="f01" data-aos="fade-down">01</div>
+			<p class="rectangleCorn" data-aos="fade-down">
+				<img src="images/rectangleCorn.png">
+			</p>
+			<div class="progression" data-aos="fade-down">progression of loads</div>
+			<div class="Each_workout" data-aos="fade-down">
+				Each workout is a battle for the right to climb one level of difficulty.
+			</div>
+		</div>
+
+		<div class="rectangle2">
+			<div class="carousel">
+				<div class="card-1">
+					<div class="f011" data-aos="fade-down">01</div>
+					<p class="rectangleCorn1" data-aos="fade-down">
+						<img src="images/rectangleCorn.png">
+					</p>
+					<div class="progression1" data-aos="fade-down">progression of loads</div>
+					<div class="Each_workout1" data-aos="fade-down">
+						Each workout is a battle for the right to climb one level of difficulty.
+					</div>
+				</div>
+
+				<div class="card-2">
+					<div class="f02" data-aos="fade-down">02</div>
+					<p class="rectangleCorn2" data-aos="fade-down">
+						<img src="images/rectangleCorn2.png">
+					</p>
+					<div class="video" data-aos="fade-down">video instructions</div>
+					<div class="Detailed_video" data-aos="fade-down">
+						Detailed video instruction for the exercises. The BATYR app includes everything you need to solve problems and help you get the job done at incredible speed. You will reach a new level of strength and endurance.
+					</div>
+				</div>
+
+				<div class="card-3">
+					<div class="f033" data-aos="fade-down">03</div>
+					<p class="rectangleCorn33" data-aos="fade-down">
+						<img src="images/rectangleCorn2.png">
+					</p>
+					<div class="training3" data-aos="fade-down">training calendar</div>
+					<div class="A_training_calendar3" data-aos="fade-down">
+						A training calendar that will get harder as you progress. You will understand how to stay in bumpy, muscular shaped 365 days a year.
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="rectangle3">
+			<div class="f03" data-aos="fade-down">03</div>
+			<p class="rectangleCorn3" data-aos="fade-down">
+				<img src="images/rectangleCorn3.png">
+			</p>
+			<div class="training" data-aos="fade-down">training calendar</div>
+			<div class="A_training_calendar" data-aos="fade-down">
+				A training calendar that will get harder as you progress. You will understand how to stay in bumpy, muscular shaped 365 days a year.
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<img src="images/Diagonal_Line2.png" class="Diagonal_Line2" data-aos="fade-down">
+		<img src="images/Diagonal_Line3.png" class="Diagonal_Line3" data-aos="fade-down">
+		<img src="images/Be_Active_Photo.png" class="Be_Active_Photo" data-aos="fade-down">
+		<div class="rectangle4">
+			<img src="images/Plus1.png" class="plus3" data-aos="fade-down">
+			<img src="images/Plus2.png" class="plus4" data-aos="fade-down">
+			<div class="be_active" data-aos="fade-down">be active</div>
+			<div class="b01" data-aos="fade-down">01</div>
+			<img src="images/rectangleCorn.png" class="rectangleCorn4" data-aos="fade-down">
+			<div class="connection" data-aos="fade-down">Connection</div>
+			<div class="install" data-aos="fade-down">
+				Install "BATYR: Workouts" and subscribe. A week's subscription costs less than a cup of coffee.
+			</div>
+		</div>
+
+		<div class="rectangle5">
+			<div class="b011" data-aos="fade-down">01</div>
+			<img src="images/rectangleCorn.png" class="rectangleCorn41" data-aos="fade-down">
+			<div class="connection1" data-aos="fade-down">Connection</div>
+			<div class="install1" data-aos="fade-down">
+				Install "BATYR: Workouts" and subscribe. A week's subscription costs less than a cup of coffee.
+			</div>
+
+			<div class="b02" data-aos="fade-down">02</div>
+			<img src="images/rectangleCorn2.png" class="rectangleCorn5" data-aos="fade-down">
+			<div class="progress" data-aos="fade-down">progress</div>
+			<div class="start" data-aos="fade-down">
+				Start training with the BATYR programs. Watch your progress week after week in the mirror.
+			</div>
+			<img src="images/Plus2.png" class="plus5" data-aos="fade-down">
+
+			<div class="rectangle51">
+				<div class="b03" data-aos="fade-down">03</div>
+				<div class="rectangleCorn6" data-aos="fade-down"></div>
+				<div class="enjoy" data-aos="fade-down">Enjoy your success</div>
+				<div class="get" data-aos="fade-down">
+					Get the strength and confidence that comes with an incredible transformation of your body and physical performance.
+				</div>
+			</div>
+		</div>
+
+		<div class="rectangle6">
+			<div class="b03" data-aos="fade-down">03</div>
+			<img src="images/rectangleCorn6.png" class="rectangleCorn6" data-aos="fade-down">
+			<div class="enjoy" data-aos="fade-down">Enjoy your success</div>
+			<div class="get" data-aos="fade-down">
+				Get the strength and confidence that comes with an incredible transformation of your body and physical performance.
+			</div>
+		</div>
+	</section>
+
+	<section id="workouts">
+		<div class="workouts__background__color">
+			<div class="workouts__box1" data-aos="fade-right"></div>
+			<div class="workouts__box2" data-aos="fade-right"></div>
+			<img src="images/workouts_photo.webp" class="workouts_photo" data-aos="fade-right">
+			<div class="workouts__title" data-aos="fade-down">workouts</div>
+			<div class="programsss" data-aos="fade-down">
+				<div class="program01">
+					<a href="https://nextworkoutapp.com/from0to100" target="_blank"><img src="images/from_0_100.webp" class="program1"></a>
+					<div class="prored">Program</div>
+					<div class="problack">FROM 0 TO 100</div>
+					<div class="protrick">Trick: burn fat, build lean form, build abs.</div>
+				</div>
+				<div class="program02">
+					<a href="https://nextworkoutapp.com/usp" target="_blank"><img src="images/ULTIMATE_SUMMER_PHYS.webp" class="program2"></a>
+					<div class="prored2">Program</div>
+					<div class="problack2">ULTIMATE SUMMER PHYSIQUE</div>
+					<div class="protrick2">Trick: burn fat, build lean, athletic form, build abs.</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="nutrition">
+		<div class="nutrition__background__color">
+			<div class="nutrition__title" data-aos="fade-down">nutrition</div>
+			<div class="Nutrition_for_muscle" data-aos="fade-down">Nutrition for muscle gain and drying</div>
+			<div class="Over_35" data-aos="fade-down">Over <span style="color: #5e42b0">35</span> dishes with video recipes for breakfast, lunch, and dinner</div>
+			<div class="Nutrition_for" data-aos="fade-down"><span style="color: #5e42b0">Nutrition</span> for drying and mass</div>
+			<div class="workouts__box3" data-aos="fade-down"></div>
+			<div class="workouts__box4" data-aos="fade-down"></div>
+			<p><img src="images/nutrition_photo.webp" class="nutrition_photo" data-aos="fade-down"></p>
+		</div>
+	</section>
+
+	<section>
+		<div class="sleep__background__color" id="sleep">
+			<img src="images/sleep_photo.jpg" class="sleep_photo" data-aos="fade-right">
+			<div class="sleep__title" data-aos="fade-down">Sleep</div>
+			<div class="Sleep_is_the_key1" data-aos="fade-down">
+				<div class="Sleep_is_the_key">Sleep is the key to health. During sleep, a number of important hormones are produced, tissues are restored and physical strength restored. The brain is also not inactive: some parts of it become even more active than during wakefulness.</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer__background__image">
+			<div class="footer__background__color">
+				<div class="Artwork" data-aos="fade-down">
+					<p class="Artwork__logo"><img src="images/logo1.png"></p>
+				</div>
+				<div class="Download__app" data-aos="fade-down">Download app</div>
+				<div class="Show__everyone" data-aos="fade-down">Show everyone what you can do!</div>
+
+				<div class="platforms2" data-aos="fade-down">
+					<a href="https://www.apple.com/app-store/" target="_blank">
+						<div class="appStore">
+							<img src="images/Apple_Icon.png">
+							<div class="download_on_the">download on the</div>
+							<div class="app_store">app store</div>
+						</div>
+					</a>
+					<a href="https://play.google.com/store/apps/" target="_blank">
+						<div class="googlePlay">
+							<img src="images/Google_Play_Icon.png">
+							<div class="get_it_on">get it on</div>
+							<div class="google_play">google play</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="footer__rectangle">
+					<img src="images/BATYR_Logo.png" class="footer__batyr__logo">
+
+					<div class="middle1">
+      					<img src="images/Forma_1.png" class="Forma_1">
+      					<img src="images/Forma_2.png" class="Forma_2">
+      					<img src="images/Forma_3.png" class="Forma_3">
+    				</div>
+
+    				<div class="Ospan_Kabdollayev">BATYR by <a href="https://ospankab.github.io/Portfolio/" target="_blank">Ospan Kabdollayev</a></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		const anchors = document.querySelectorAll('a[href*="#"]')
+
+		for (let anchor of anchors) {
+		    anchor.addEventListener("click", function (event) {
+		        event.preventDefault();
+		        const blockID = anchor.getAttribute('href')
+		        document.querySelector('' + blockID).scrollIntoView({
+		            behavior: "smooth",
+		            block: "start"
+		        })
+		    })
+		}
+	</script>
+
+	<div id="popup1" class="popup1">
+		<a href="#top" class="popup1__area" onclick="scrol(this)"></a>
+		<div class="popup1__body">
+			<div class="popup1__content">
+				<a href="#top" class="popup1__close"
+					onclick="scrol(this)">X</a>
+				<form action="index.html" class="login-form">
+					<div class="popup1__title">Sign up</div>
+						<div class="txtb" id="txtb11">
+							<input type="text" maxlength="15">
+							<span data-placeholder="First & Last name"></span>
+						</div>
+
+						<div class="txtb" id="txtb13">
+							<input type="text" maxlength="30">
+							<span data-placeholder="Email"></span>
+						</div>
+
+
+						<div class="txtb" id="txtb12">
+							<input type="password" maxlength="25">
+							<span data-placeholder="Your password"></span>
+						</div>
+
+						<div class="backTo">
+							<a href="#popup">Back to Log in</a>
+						</div>
+
+						<div class="logbtn0">
+							<a class="logbtn" id="logbtn"
+								onclick="logIn1(this)"
+								onmouseover="big()">
+								<span>Create An Account</span>
+							</a>
+						</div>
+
+						<div class="social-login-label">
+							<hr class="hr1">
+							<span class="label-text">or connect with</span>
+							<hr class="hr2">
+						</div>
+
+						<div class="middle">
+      						<a class="btn">
+       							<i class="fab fa-facebook-f"></i>
+     						</a>
+      						<a class="btn">
+        						<i class="fab fa-google"></i>
+      						</a>
+      						<a class="btn">
+        						<i class="fab fa-vk"></i>
+      						</a>
+    					</div>
+					</div>
+				</form>
+
+				<script type="text/javascript">
+      				$(".txtb input").on("focus", function(){
+        				$(this).addClass("focus");
+      				});
+
+      				$(".txtb input").on("blur", function(){
+        				if($(this).val() == "")
+        				$(this).removeClass("focus");
+      				});
+				</script>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup" class="popup">
+		<a href="#head" class="popup__area" onclick="scrol(this)"></a>
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="#top" class="popup__close"
+					onclick="scrol(this)">X</a>
+				<form action="index.html" class="login-form">
+					<div class="popup__title">Log in</div>
+						<div class="txtb" id="txtb111">
+							<input type="text" maxlength="11" class="your_username">
+							<span data-placeholder="Your username"></span>
+						</div>
+
+						<div class="txtb" id="txtb122">
+							<input type="password" maxlength="25" class="your_password">
+							<span data-placeholder="Your password"></span>
+						</div>
+
+						<input type="checkbox" class="checkbox-input" id="checkbox_check">
+						<div class="remember" onclick="remember(this)">Remember me</div>
+						<div class="forgot">Forgot your password?</div>
+
+						<div class="logbtn0">
+							<a href="#profile" class="logbtn" id="logbtnnn"
+								onclick="logIn(this)"
+								onmouseover="big()">
+								<span>Log In</span>
+							</a>
+						</div>
+
+						<div class="bottom-text">
+							Don't have account? <a href="#popup1">Sign up</a>
+						</div>
+
+						<div class="social-login-label">
+							<hr class="hr1">
+							<span class="label-text">or connect with</span>
+							<hr class="hr2">
+						</div>
+
+						<div class="middle">
+      						<a class="btn">
+       							<i class="fab fa-facebook-f"></i>
+     						</a>
+      						<a class="btn">
+        						<i class="fab fa-google"></i>
+      						</a>
+      						<a class="btn">
+        						<i class="fab fa-vk"></i>
+      						</a>
+    					</div>
+					</div>
+				</form>
+
+				<script type="text/javascript">
+      				$(".txtb input").on("focus", function(){
+        				$(this).addClass("focus");
+      				});
+
+      				$(".txtb input").on("blur", function(){
+        				if($(this).val() == "")
+        				$(this).removeClass("focus");
+      				});
+				</script>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5716 @@
+@font-face {
+	font-family: 'ProximaNovaLt';
+	src: url('fonts/Mark Simonson - Proxima Nova Regular.eot');
+	src: local('☺'), url('fonts/Mark Simonson - Proxima Nova Regular.woff') format('woff'), url('fonts/Mark Simonson - Proxima Nova Regular.ttf') format('truetype'), url('fonts/Mark Simonson - Proxima Nova Regular.svg') format('svg');
+	font-style: normal;
+}
+
+* {
+	font-family: 'ProximaNovaLt';
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header__background__image {
+	background-image: url(images/Background_Image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 753px;
+}
+
+.header__background__color {
+	background-color: rgba(10, 14, 52, 0.8);
+	height: inherit;
+}
+
+.head {
+	display: flex;
+	justify-content: space-between;
+}
+
+.batyr__logo {
+	width: 189px;
+	box-sizing: content-box;
+	margin-left: 193px;
+	margin-top: 54px;
+	user-select: none;
+	cursor: pointer;
+}
+
+.for_brave {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	text-align: right;
+	padding-right: 196px;
+	padding-top: 93px;
+}
+
+.work_your {
+	color: #ffffff;
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 4.96px;
+	padding-left: 192px;
+	padding-top: 175px;
+}
+
+.work_your2 {
+	display: none;
+}
+
+.from {
+	display: none;
+}
+
+.a_beginner {
+	color: #ffffff;
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 4.5px;
+	text-align: right;
+	padding-right: 198px;
+	padding-top: 10px;
+}
+
+.a_beginner2 {
+	display: none;
+}
+.professional {
+	display: none;
+}
+
+.menu {
+	text-align: right;
+	padding-right: 206px;
+	padding-top: 15px;
+	user-select: none;
+}
+
+.workouts {	
+	color: #9071ea;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	margin-right: 75px;
+	user-select: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.nutrition {
+	color: #9071ea;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	margin-right: 75px;
+	user-select: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.sleep {
+	color: #9071ea;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	margin-right: 75px;
+	user-select: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.logIn {
+	color: #9071ea;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	user-select: none;
+	cursor: pointer;
+	text-decoration: none;
+	border-bottom: 2px solid rgba(44, 193, 98, 0.3);
+}
+
+.logIn:hover {
+	border-bottom: 2px solid rgba(44, 193, 98, 1);
+}
+
+.platforms {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+
+.appStore {
+	width: 311px;
+	height: 77px;
+	box-shadow: 0 16px 24px #0a0e34;
+	background-color: #5e42b0;
+	padding-top: 19px;
+	padding-left: 43px;
+	box-sizing: border-box;
+	border-radius: 40px;
+	user-select: none;
+	cursor: pointer;
+}
+
+.download_on_the {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	margin-left: 62px;
+	margin-top: -37px;
+	text-decoration: none;
+}
+
+.app_store {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	margin-left: 61px;
+	text-decoration: none;
+}
+
+.googlePlay {
+	width: 311px;
+	height: 77px;
+	box-shadow: 0 16px 24px #0a0e34;
+	background-color: #5e42b0;
+	padding-top: 19px;
+	padding-left: 64px;
+	box-sizing: border-box;
+	border-radius: 40px;
+	user-select: none;
+	cursor: pointer;
+	margin-left: 50px;
+}
+
+.get_it_on {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	margin-top: -40px;
+	margin-left: 62px;
+}
+
+.google_play {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	margin-left: 61px;
+}
+
+.menu2 {
+	display: none;
+}
+
+.Diagonal_Line {
+	position: absolute;
+	height: 490px;
+	width: 440px;
+	margin-left: 195px;
+	margin-top: 100px;
+	user-select: none;
+}
+
+.New_Level_Photo {
+	position: absolute;
+	height: 730px;
+	margin-left: 120px;
+	margin-top: 24px;
+	user-select: none;
+}
+
+.rectangle1 {
+	height: 330px;
+	background-color: #ffffff;
+}
+
+.plus1 {
+	position: absolute;
+	padding-top: 100px;
+	padding-left: 185px;
+	user-select: none;
+}
+
+.plus2 {
+	position: absolute;
+	padding-top: 118px;
+	padding-left: 205px;
+	user-select: none;
+}
+
+.new_level {
+	color: #e7e7e7;
+	font-size: 90px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: right;
+	padding-right: 263px;
+	padding-top: 50px;
+}
+
+.f01 {
+	color: #000000;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+	text-align: right;
+	padding-right: 713px;
+	padding-top: 50px;
+}
+
+.rectangleCorn {
+	text-align: right;
+	padding-right: 713px;
+	margin-top: -9px;
+	user-select: none;
+}
+
+.progression {
+	color: #c1c1c1;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	text-align: right;
+	padding-right: 243px;
+	margin-top: -54px;
+}
+
+.Each_workout {
+	color: #000000;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-align: right;
+	padding-right: 81px;
+	padding-top: 15px;
+}
+
+.rectangle2 {
+	height: 200px;
+	background-color: rgba(94, 66, 176, 0.06);
+}
+
+.card-1 {display: none;}
+.card-3 {display: none;}
+
+.f02 {
+	color: #000000;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+	text-align: right;
+	padding-right: 710px;
+	padding-top: 28px;
+}
+
+.rectangleCorn2 {
+	text-align: right;
+	padding-right: 711px;
+	margin-top: -9px;
+	user-select: none;
+}
+
+.video {
+	color: #c1c1c1;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	text-align: right;
+	padding-right: 300px;
+	margin-top: -52px;
+}
+
+.Detailed_video {
+	width: 660px;
+	color: #000000;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-left: auto;
+	margin-right: 75px;
+	padding-top: 15px;
+}
+
+.ellipses {
+	display: none;
+}
+
+.rectangle3 {
+	height: 224px;
+	background-color: #5e42b0; 
+}
+
+.f03 {
+	color: #0a0e34;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+	text-align: right;
+	padding-right: 710px;
+	padding-top: 65px;
+}
+
+.rectangleCorn3 {
+	text-align: right;
+	padding-right: 711px;
+	margin-top: -9px;
+	user-select: none;
+}
+
+.training {
+	color: #c1c1c1;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	text-align: right;
+	padding-right: 315px;
+	margin-top: -53px;
+}
+
+.A_training_calendar {
+	width: 662px;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-left: auto;
+	margin-right: 74px;
+	padding-top: 15px;
+}
+
+.Diagonal_Line2 {
+	width: 250px;
+	height: 240px;
+	position: absolute;
+	right: 269px;
+	margin-top: 180px;
+	user-select: none;
+}
+
+.Diagonal_Line3 {
+	width: 240px;
+	height: 230px;
+	position: absolute;
+	right: 374px;
+	margin-top: 435px;
+	user-select: none;
+}
+
+.Be_Active_Photo {
+	height: 650px;
+	position: absolute;
+	right: 150px;
+	margin-top: 50px;
+	user-select: none;
+}
+
+.rectangle4 {
+	height: 330px;
+	background-color: #ffffff;
+}
+
+.plus3 {
+	position: absolute;
+	padding-top: 145px;
+	right: 522px;
+	user-select: none;
+}
+
+.plus4 {
+	position: absolute;
+	padding-top: 120px;
+	right: 542px;
+	user-select: none;
+}
+
+.be_active {
+	color: #e7e7e7;
+	font-size: 90px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 50px;
+	padding-left: 192px;
+}
+
+.b01 {
+	color: #000000;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+	padding-top: 25px;
+	padding-left: 198px;
+}
+
+.rectangleCorn4 {
+	position: absolute;
+	padding-left: 198px;
+	user-select: none;
+}
+
+.connection {
+	color: #c1c1c1;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	padding-left: 230px;
+	margin-top: -28px;
+}
+
+.install {
+	width: 564px;
+	color: #000000;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding-top: 20px;
+	margin-left: 198px;
+}
+
+.rectangle5 {
+	height: 200px;
+	background-color: rgba(10, 14, 52, 0.04);
+}
+
+.b011 {display: none;}
+.rectangleCorn41 {display: none;}
+.connection1 {display: none;}
+.install1 {display: none;}
+
+.b02 {
+	color: #000000;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+	padding-top: 50px;
+	padding-left: 198px;
+}
+
+.rectangleCorn5 {
+	position: absolute;
+	padding-left: 198px;
+	user-select: none;
+}
+
+.progress {
+	color: #c1c1c1;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	padding-left: 233px;
+	margin-top: -28px;
+}
+
+.start {
+	width: 529px;
+	color: #000000;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-left: 198px;
+	padding-top: 25px;
+}
+
+.plus5 {
+	position: absolute;
+	margin-top: -15px;
+	right: 217px;
+	user-select: none;
+}
+
+.rectangle51 {
+	display: none;
+}
+
+.rectangle6 {
+	height: 225px;
+	background-color: #0a0e34;
+}
+
+.b03 {
+	color: #9173e6;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+	padding-top: 55px;
+	padding-left: 198px;
+}
+
+.rectangleCorn6 {
+	position: absolute;
+	padding-left: 198px;
+	user-select: none;
+}
+
+.enjoy {
+	color: #c1c1c1;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	padding-left: 235px;
+	margin-top: -28px;
+}
+
+.get {
+	width: 500px;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding-top: 20px;
+	margin-left: 198px;
+}
+
+.workouts__background__color {
+	background-color: rgba(10, 14, 52, 0.04);
+	height: 755px;
+}
+
+.workouts__box1 {
+	width: 280px;
+	height: 100px;
+	position: absolute;
+	border-radius: 40px;
+	background-color: #0a0e34;
+	margin-top: 80px;
+	margin-left: 240px;
+	user-select: none;
+}
+
+.workouts__box2 {
+	width: 280px;
+	height: 100px;
+	position: absolute;
+	border-radius: 40px;
+	background-color: #5e42b0;
+	margin-top: 570px;
+	margin-left: 280px;
+	user-select: none;
+}
+
+.workouts_photo {
+	width: 600px;
+	padding-top: 75px;
+	margin-left: 100px;
+	position: relative;
+	float: left;
+	user-select: none;
+}
+
+.workouts__title {
+	color: #e7e7e7;
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 230px;
+    padding-top: 100px;
+}
+
+.programsss {
+	display: flex;
+}
+
+.program01 {
+	margin-top: 40px;
+	margin-left: -35px;
+}
+
+.program1 {
+	width: 400px;
+	height: 225px;
+	margin-left: 0px;
+	user-select: none;
+}
+
+.program02 {
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+.program2 {
+	width: 400px;
+	height: 225px;
+	user-select: none;
+}
+
+.prored {
+	color: #d10000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.problack {
+	color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.protrick {
+	color: #000000;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.prored2 {
+	color: #d10000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.problack2 {
+	color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.protrick2 {
+	color: #000000;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.nutrition__background__color {
+	background-color: #fff;
+	height: 755px;
+}
+
+.nutrition__background__color p {
+	text-align: right;
+}
+
+.workouts__box3 {
+	width: 280px;
+	height: 100px;
+	position: absolute;
+	border-radius: 40px;
+	background-color: #0a0e34;
+	margin-top: 80px;
+	right: 280px;
+	user-select: none;
+}
+
+.workouts__box4 {
+	width: 280px;
+	height: 100px;
+	position: absolute;
+	border-radius: 40px;
+	background-color: #5e42b0;
+	margin-top: 570px;
+	right: 240px;
+	user-select: none;
+}
+
+.nutrition__title {
+	position: absolute;
+	color: #e7e7e7;
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+.Nutrition_for_muscle {
+	position: absolute;
+	color: #000;
+    font-size: 42px;
+    font-weight: 600;
+    margin-left: 150px;
+    margin-top: 300px;
+}
+
+.Over_35 {
+	position: absolute;
+	color: #000;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 425px;
+    margin-left: 150px;
+}
+
+.Nutrition_for {
+	position: absolute;
+	color: #000;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 485px;
+    margin-left: 150px;
+}
+
+.nutrition_photo {
+	width: 600px;
+	position: relative;
+	padding-top: 75px;
+	margin-right: 100px;
+	user-select: none;
+}
+
+.sleep__background__color {
+	background-color: rgba(10, 14, 52, 0.04);
+	height: 755px;
+}
+
+.sleep_photo {
+	margin-left: 100px;
+	margin-top: 200px;
+	border: 2px solid #5e42b0;
+	border-radius: 5px;
+	float: left;
+	user-select: none;
+}
+
+.sleep__title {
+	color: #e7e7e7;
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 230px;
+    padding-top: 200px;
+}
+
+.Sleep_is_the_key1 {
+	width: 500px;
+	float: right;
+	margin-right: 100px;
+	margin-top: 20px;
+}
+
+.Sleep_is_the_key {
+	color: #000;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.my_achievements_and_map {
+	height: 755px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.my_achievements {
+	width: 649px;
+	height: 364px;
+	background-color: #0A0E34;
+	border: 2px solid #5e42b0;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.map {
+	width: 649px;
+	height: 364px;
+	border: 2px solid #5e42b0;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+.footer__background__image {
+	background-image: url(images/Footer_Background_Image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 755px;
+}
+
+.footer__background__color {
+	background-color: rgba(10, 14, 52, 0.5);
+	height: inherit;
+}
+
+.Artwork {
+	width: 130px;
+	height: 137px;
+	border-radius: 25px;
+	background-color: #5e42b0;
+	margin-left: 304px;
+	margin-top: 129px;
+	position: absolute;
+	user-select: none;
+}
+
+.Artwork__logo {
+	text-align: center;
+	padding-top: 5px;
+	user-select: none;
+}
+
+.Download__app {
+	color: #ffffff;
+	font-size: 90px;
+	font-weight: 700;
+	text-align: right;
+	text-transform: uppercase;
+	letter-spacing: 4.96px;
+	padding-right: 275px;
+	padding-top: 125px;
+}
+
+.Show__everyone {
+	color: #a496ca;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: right;
+	text-transform: uppercase;
+	padding-right: 383px;
+	margin-top: -15px;
+}
+
+.platforms2 {
+	display: flex;
+	justify-content: center;
+	padding-top: 123px;
+}
+
+.footer__rectangle {
+	height: 171px;
+	background-color: #0a0e34;
+	opacity: 0.9;
+	margin-top: 122px;
+}
+
+.footer__batyr__logo {
+	width: 189px;
+	box-sizing: content-box;
+	margin-left: 50px;
+	margin-top: 45px;
+	user-select: none;
+	cursor: pointer;
+}
+
+.middle1 {
+	margin-top: -55px;
+	text-align: center;
+ 	user-select: none;
+ 	margin-left: -15px;
+}
+
+.middle1 img {
+	margin-left: 15px;
+}
+
+.Ospan_Kabdollayev {
+	margin-top: -35px;
+	padding-right: 60px;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: right;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.profile {
+	position: fixed;
+	top: 25px;
+	right: 23px;
+	color: white;
+	min-width: 150px;
+	width: auto;
+	height: 40px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	box-sizing: border-box;
+	display: none;
+	padding-right: 10px;
+}
+
+.profile img {
+	width: 30px;
+	padding-top: 8px;
+	padding-left: 5px;
+	float: left;
+}
+
+.profile div {
+	padding-left: 45px;
+	padding-top: 10px;
+	font-size: 17px;
+}
+
+.popup {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(238, 239, 230, 0.7);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s ease 0s;
+}
+
+.popup:target {
+	opacity: 1;
+	visibility: visible;
+	overflow-y: hidden;
+}
+
+.popup:target .popup__content {
+	transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
+	opacity: 1;
+}
+
+.popup__area {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	cursor: auto;
+}
+
+.popup__body {
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.popup__content {
+	position: relative;
+	transition: all 0.5s ease 0s;
+	opacity: 0;
+	transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+	box-sizing: border-box;
+}
+.popup__close {
+	width: 24px;
+	position: absolute;
+	font-size: 20px;
+	color: black;
+	font-weight: 900;
+	margin-left: 725px;
+	margin-top: -355px;
+	text-decoration: none;
+	user-select: none;
+}
+.popup__title {
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 60px;
+	font-weight: 900;
+}
+
+/*asdfghjkl*/
+
+.popup1 {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(238, 239, 230, 0.7);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s ease 0s;
+}
+
+.popup1:target {
+	opacity: 1;
+	visibility: visible;
+	overflow-y: hidden;
+}
+
+.popup1:target .popup1__content {
+	transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
+	opacity: 1;
+}
+
+.popup1__area {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	cursor: auto;
+}
+
+.popup1__body {
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.popup1__content {
+	position: relative;
+	transition: all 0.5s ease 0s;
+	opacity: 0;
+	transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+	box-sizing: border-box;
+}
+.popup1__close {
+	width: 24px;
+	position: absolute;
+	font-size: 20px;
+	color: black;
+	font-weight: 900;
+	margin-left: 725px;
+	margin-top: -355px;
+	text-decoration: none;
+	user-select: none;
+}
+.popup1__title {
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 40px;
+	font-weight: 900;
+}
+
+.backTo {
+	width: 94px;
+	font-size: 15px;
+	margin-left: 305px;
+	margin-top: -20px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.backTo a {
+	color: #1C85C4;
+	text-decoration: none;
+}
+
+.backTo:hover {
+	text-decoration: underline;
+}
+
+.login-form {
+	box-shadow: 0 6px 16px 0 rgba(0, 0, 0, .2);
+  	width: 480px;
+  	background: #f1f1f1;
+  	height: 600px;
+  	box-sizing: border-box;
+  	padding: 80px 40px;
+  	border-radius: 10px;
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%,-50%);
+}
+
+.txtb {
+	border-bottom: 2px solid #adadad;
+  	position: relative;
+  	margin: 30px 0;
+}
+
+.txtb input {
+  	font-size: 16px;
+  	color: #5e42b0;
+  	border: none;
+  	width: 100%;
+  	outline: none;
+  	background: none;
+  	padding: 0 5px;
+  	height: 40px;
+  	box-sizing: content-box;
+}
+
+.txtb span::before {
+  	content: attr(data-placeholder);
+  	position: absolute;
+  	top: 50%;
+  	left: 3px;
+  	color: #adadad;
+  	transform: translateY(-50%);
+  	z-index: -1;
+  	transition: .5s;
+}
+
+.txtb span::after {
+  	content: '';
+  	position: absolute;
+  	width: 0%;
+  	height: 2px;
+  	background: linear-gradient(90deg, #3498DB, #8E44AD);
+  	transition: .5s;
+}
+
+.txtb1 {
+  	border-bottom: 2px solid #adadad;
+  	position: relative;
+  	margin: 30px 0;
+}
+
+.txtb1 input {
+  	font-size: 16px;
+  	color: #5e42b0;
+  	border: none;
+  	width: 100%;
+  	outline: none;
+  	background: none;
+  	padding: 0 5px;
+  	height: 40px;
+  	box-sizing: content-box;
+}
+
+.txtb1 span::before {
+  	content: attr(data-placeholder);
+  	position: absolute;
+  	top: 50%;
+  	left: 3px;
+  	color: #adadad;
+  	transform: translateY(-50%);
+  	z-index: -1;
+  	transition: .5s;
+}
+
+.txtb1 span::after {
+  	content: '';
+  	position: absolute;
+  	width: 100%;
+  	height: 2px;
+  	background: red;
+  	transition: .5s;
+}
+
+.focus + span::before {
+  	top: -5px;
+}
+.focus + span::after {
+  	width: 100%;
+}
+
+.checkbox-input {
+	width: 13px;
+	height: 13px;
+	float: left;
+	margin-left: 0px;
+	margin-top: -15px;
+	cursor: pointer;
+}
+
+.remember {
+	width: 97px;
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: -17px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.forgot {
+	width: 151px;
+	font-size: 15px;
+	margin-left: 250px;
+	margin-top: -17px;
+	color: #1C85C4;
+	cursor: pointer;
+	user-select: none;
+}
+
+.forgot:hover {
+	text-decoration: underline;
+}
+
+.logbtn0 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: none;
+	width: 400px;
+	user-select: none;
+}
+
+a.logbtn {
+	width: 400px;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 20px;
+	margin-top: 30px;
+	background: linear-gradient(120deg, #8E44AD, #1BA94C);
+	color: #5E42B0;
+	font-weight: 900;
+	box-shadow: 0 5px 15px -5px #00000070;
+	border-radius: 50px;
+}
+
+.popup1 a.logbtn {
+	width: 400px;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 20px;
+	margin-top: 0px;
+	background: linear-gradient(120deg, #8E44AD, #1BA94C);
+	color: #5E42B0;
+	font-weight: 900;
+	box-shadow: 0 5px 15px -5px #00000070;
+	border-radius: 50px;
+}
+
+a.logbtn:hover {
+	color: #f1f1f1;
+	font-size: 23px;
+	transition: 0.1s;
+}
+
+a.logbtn:before {
+	content: '';
+	position: absolute;
+	top: 6px;
+	left: -2px;
+	width: calc(100% + 4px);
+	height: calc(100% - 12px);
+	background: #f1f1f1;
+	transition: 0.5s ease-in-out;
+	transform: scaleY(1);
+	transition-delay: 0.001s;
+	border-radius: 50px;
+}
+
+a.logbtn:hover:before {
+	transform: scaleY(0);
+}
+
+a.logbtn:after {
+	content: '';
+	position: absolute;
+	left: 6px;
+	top: -2px;
+	height: calc(100% + 4px);
+	width: calc(100% - 12px);
+	background: #f1f1f1;;
+	transition: 0.5s ease-in-out;
+	transform: scaleX(1);
+	border-radius: 50px;
+}
+
+a.logbtn:hover:after {
+	transform: scaleX(0);
+}
+
+a.logbtn span {
+	position: relative;
+	z-index: 3;
+}
+
+.bottom-text {
+  	margin-top: 15px;
+  	text-align: center;
+  	font-size: 15px;
+}
+
+.bottom-text a {
+  	text-decoration: none;
+  	color: #5E42B0;
+  	user-select: none;
+  	cursor: pointer;
+}
+
+.bottom-text a:hover {
+  	text-decoration: underline;
+}
+
+.social-login-label {
+	width: 400px;
+    text-align: center;
+    display: flex;
+    margin-top: 35px;
+}
+
+.hr1 {
+	width: 130px;
+	height: 0.5px;
+	background-color: #adadad;
+}
+
+.label-text {
+	width: 140px;
+	color: black;
+}
+
+.hr2 {
+	width: 130px;
+	height: 0.5px;
+	background-color: #adadad;
+}
+
+.middle {
+  	width: 100%;
+ 	text-align: center;
+ 	user-select: none;
+}
+
+.btn {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: #f1f1f1;
+	margin: 10px;
+	border-radius: 30%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: #5e42b0;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+
+.btn i {
+  	line-height: 50px;
+  	font-size: 26px;
+  	transition: 0.2s linear;
+}
+
+.btn:hover i {
+  	transform: scale(1.3);
+  	color: #f1f1f1;
+}
+
+.btn::before {
+  	content: "";
+  	position: absolute;
+  	width: 120%;
+  	height: 120%;
+  	background: linear-gradient(90deg, #3498DB, #8E44AD);
+  	transform: rotate(45deg);
+  	left: -110%;
+  	top: 90%;
+}
+
+.btn:hover::before {
+  	animation: aaa 0.7s 1;
+  	top: -10%;
+  	left: -10%;
+}
+
+@keyframes aaa {
+  	0% {
+    	left: -110%;
+   		top: 90%;
+  	} 50% {
+    	left: 10%;
+    	top: -30%;
+  	} 100% {
+    	top: -10%;
+    	left: -10%;
+  	}
+}
+
+@media (max-width: 1490px) {
+	.program01 {
+		margin-left: -75px;
+	}
+}
+
+@media (max-width: 1460px) {
+	.program01 {
+		margin-left: -95px;
+	}
+
+	.Artwork {
+		margin-left: 234px;
+		margin-top: 129px;
+	}
+}
+
+@media (max-width: 1418px) {
+	.header__background__image {
+		height: 900px;
+	}
+
+	.header__background__color {}
+	.head {}
+	.batyr__logo {}
+	.for_brave {}
+	.work_your {}
+	.work_your2 {}
+	.from {}
+	.a_beginner {}
+	.a_beginner2 {}
+	.professional {}
+	.menu {}
+	.workouts {}
+	.nutrition {}
+	.sleep {}
+	.logIn {}
+	.platforms {}
+	.appStore {}
+	.download_on_the {}
+	.app_store {}
+	.googlePlay {}
+	.get_it_on {}
+	.google_play {}
+	.menu2 {}
+
+	.Diagonal_Line {
+		margin-left: 155px;
+		margin-top: 100px;
+	}
+
+	.New_Level_Photo {
+		margin-left: 80px;
+		margin-top: 24px;
+	}
+
+	.rectangle1 {}
+
+	.plus1 {
+		padding-top: 100px;
+		padding-left: 145px;
+	}
+
+	.plus2 {
+		padding-top: 118px;
+		padding-left: 165px;
+	}
+
+	.new_level {}
+	.f01 {}
+	.rectangleCorn {}
+	.progression {}
+	.Each_workout {}
+	.rectangle2 {}
+	.carousel {}
+	.card-1 {}
+	.f011 {}
+	.rectangleCorn1 {}
+	.progression1 {}
+	.Each_workout1 {}
+	.card-2 {}
+	.f02 {}
+	.rectangleCorn2 {}
+	.video {}
+	.Detailed_video {}
+	.card-3 {}
+	.f033 {}
+	.rectangleCorn33 {}
+	.training3 {}
+	.A_training_calendar3 {}
+	.rectangle3 {}
+	.f03 {}
+	.rectangleCorn3 {}
+	.training {}
+	.A_training_calendar {}
+
+	.Diagonal_Line2 {}
+	.Diagonal_Line3 {}
+	.Be_Active_Photo {}
+	.rectangle4 {}
+	.plus3 {}
+	.plus4 {}
+	.be_active {}
+	.b01 {}
+	.rectangleCorn4 {}
+	.connection {}
+	.install {}
+	.rectangle5 {}
+	.b011 {}
+	.rectangleCorn41 {}
+	.connection1 {}
+	.install1 {}
+	.b02 {}
+	.rectangleCorn5 {}
+	.progress {}
+	.start {}
+	.plus5 {}
+	.rectangle51 {}
+	.b03 {}
+	.rectangleCorn6 {}
+	.enjoy {}
+	.get {}
+	.rectangle6 {}
+
+	.workouts__background__color {}
+	.workouts__box1 {}
+	.workouts__box2 {}
+	.workouts_photo {}
+
+	.workouts__title {
+	    font-size: 89px;
+	    text-align: right;
+	    padding-right: 230px;
+	    padding-top: 100px;
+	}
+
+	.programsss {
+		display: flex;
+	}
+
+	.program01 {
+		margin-left: -105px;
+		/*margin-top: 40px;
+		margin-left: -35px;*/
+	}
+
+	.program1 {
+	width: 400px;
+	height: 225px;
+	margin-left: 0px;
+	}
+
+	.program02 {
+		margin-top: 40px;
+		margin-left: 10px;
+	}
+
+	.program2 {
+		width: 400px;
+		height: 225px;
+	}
+
+	.prored {
+		color: #d10000;
+	    font-size: 18px;
+	    font-weight: 700;
+	}
+
+	.problack {
+		color: #000000;
+	    font-size: 40px;
+	    font-weight: 700;
+	}
+
+	.protrick {
+		color: #000000;
+	    font-size: 19px;
+	    font-weight: 400;
+	}
+
+	.prored2 {
+		color: #d10000;
+	    font-size: 18px;
+	    font-weight: 700;
+	}
+
+	.problack2 {
+		color: #000000;
+	    font-size: 40px;
+	    font-weight: 700;
+	}
+
+	.protrick2 {
+		color: #000000;
+	    font-size: 19px;
+	    font-weight: 400;
+	}
+
+	.nutrition__background__color {}
+	.nutrition__title {}
+	.Nutrition_for_muscle {}
+	.Over_35 {}
+	.Nutrition_for {}
+	.workouts__box3 {}
+	.workouts__box4 {}
+	.nutrition_photo {}
+
+	.sleep__background__color {}
+	.sleep_photo {}
+	.sleep__title {}
+	.Sleep_is_the_key1 {}
+	.Sleep_is_the_key {}
+
+	.footer__background__image {}
+	.footer__background__color {}
+
+	.Artwork {
+		margin-left: 234px;
+		margin-top: 129px;
+	}
+
+	.Artwork__logo {}
+	.Download__app {}
+	.Show__everyone {}
+	.platforms2 {}
+	.appStore {}
+	.download_on_the {}
+	.app_store {}
+	.googlePlay {}
+	.get_it_on {}
+	.google_play {}
+	.footer__rectangle {}
+	.footer__batyr__logo {}
+	.middle1 {}
+	.Forma_1 {}
+	.Forma_2 {}
+	.Forma_3 {}
+	.Ospan_Kabdollayev {}
+}
+
+@media (max-width: 768px) {
+	.header__background__image {
+		background-image: url(images/Background_Image.png);
+		background-position: center;
+		height: 1024px;
+	}
+
+	.batyr__logo {
+		width: 233px;
+		height: 87px;
+		padding-left: 0px;
+		padding-top: 0px;
+		margin-top: 54px;
+		margin-left: 30px;
+	}
+
+	.for_brave {
+		padding-right: 31px;
+		padding-top: 90px;
+	}
+
+	.work_your {
+		display: none;
+	}
+
+	.work_your2 {
+		display: block;
+		color: #ffffff;
+		font-size: 60px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 4.96px;
+		padding-top: 190px;
+		text-align: center;
+	}
+
+	.from {
+		display: block;
+		color: #ffffff;
+		font-size: 60px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 4.96px;
+		text-align: center;
+	}
+
+	.a_beginner {
+		display: none;
+	}
+
+	.a_beginner2 {
+		display: block;
+		color: #ffffff;
+		font-size: 60px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 4.5px;
+		text-align: center;
+	}
+	.professional {
+		display: block;
+		color: #ffffff;
+		font-size: 60px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 4.5px;
+		text-align: center;
+	}
+
+	.menu {
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		padding-right: 100px;
+		padding-left: 100px;
+		padding-top: 75px;
+	}
+
+	.logIn {display: none;}
+
+	.platforms {
+		padding-top: 100px;
+	}
+
+	.googlePlay {
+		margin-left: 30px;
+	}
+
+	.Diagonal_Line {
+		margin-left: -140px;
+		margin-top: 100px;
+	}
+
+	.New_Level_Photo {
+		margin-left: -215px;
+		margin-top: 24px;
+	}
+
+	.rectangle1 {}
+
+	.plus1 {
+		display: none;
+	}
+
+	.plus2 {
+		display: none;
+	}
+
+	.new_level {
+		font-size: 80px;
+		padding-right: 20px;
+		padding-top: 50px;
+	}
+
+	.f01 {
+		color: #000000;
+		font-size: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.9px;
+		text-align: right;
+		padding-right: 713px;
+		padding-top: 50px;
+	}
+
+	.rectangleCorn {
+		text-align: right;
+		padding-right: 713px;
+		margin-top: -9px;
+		user-select: none;
+	}
+
+	.progression {
+		color: #c1c1c1;
+		font-size: 36px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 1.8px;
+		text-align: right;
+		padding-right: 243px;
+		margin-top: -54px;
+	}
+
+	.Each_workout {
+		
+	}
+
+	.rectangle2 {}
+	.carousel {}
+	.card-1 {}
+	.f011 {}
+	.rectangleCorn1 {}
+	.progression1 {}
+	.Each_workout1 {}
+	.card-2 {}
+	.f02 {}
+	.rectangleCorn2 {}
+	.video {}
+	.Detailed_video {}
+	.card-3 {}
+	.f033 {}
+	.rectangleCorn33 {}
+	.training3 {}
+	.A_training_calendar3 {}
+	.rectangle3 {}
+	.f03 {}
+	.rectangleCorn3 {}
+	.training {}
+	.A_training_calendar {}
+
+	.Diagonal_Line2 {}
+	.Diagonal_Line3 {}
+	.Be_Active_Photo {}
+	.rectangle4 {}
+	.plus3 {}
+	.plus4 {}
+	.be_active {}
+	.b01 {}
+	.rectangleCorn4 {}
+	.connection {}
+	.install {}
+	.rectangle5 {}
+	.b011 {}
+	.rectangleCorn41 {}
+	.connection1 {}
+	.install1 {}
+	.b02 {}
+	.rectangleCorn5 {}
+	.progress {}
+	.start {}
+	.plus5 {}
+	.rectangle51 {}
+	.b03 {}
+	.rectangleCorn6 {}
+	.enjoy {}
+	.get {}
+	.rectangle6 {}
+
+	.workouts__background__color {}
+	.workouts__box1 {}
+	.workouts__box2 {}
+	.workouts_photo {}
+
+	.workouts__title {
+	    font-size: 89px;
+	    text-align: right;
+	    padding-right: 230px;
+	    padding-top: 100px;
+	}
+
+	.programsss {
+		display: flex;
+	}
+
+	.program01 {
+		margin-left: -105px;
+		/*margin-top: 40px;
+		margin-left: -35px;*/
+	}
+
+	.program1 {
+	width: 400px;
+	height: 225px;
+	margin-left: 0px;
+	}
+
+	.program02 {
+		margin-top: 40px;
+		margin-left: 10px;
+	}
+
+	.program2 {
+		width: 400px;
+		height: 225px;
+	}
+
+	.prored {
+		color: #d10000;
+	    font-size: 18px;
+	    font-weight: 700;
+	}
+
+	.problack {
+		color: #000000;
+	    font-size: 40px;
+	    font-weight: 700;
+	}
+
+	.protrick {
+		color: #000000;
+	    font-size: 19px;
+	    font-weight: 400;
+	}
+
+	.prored2 {
+		color: #d10000;
+	    font-size: 18px;
+	    font-weight: 700;
+	}
+
+	.problack2 {
+		color: #000000;
+	    font-size: 40px;
+	    font-weight: 700;
+	}
+
+	.protrick2 {
+		color: #000000;
+	    font-size: 19px;
+	    font-weight: 400;
+	}
+
+	.nutrition__background__color {}
+	.nutrition__title {}
+	.Nutrition_for_muscle {}
+	.Over_35 {}
+	.Nutrition_for {}
+	.workouts__box3 {}
+	.workouts__box4 {}
+	.nutrition_photo {}
+
+	.sleep__background__color {}
+	.sleep_photo {}
+	.sleep__title {}
+	.Sleep_is_the_key1 {}
+	.Sleep_is_the_key {}
+
+	.footer__background__image {}
+	.footer__background__color {}
+
+	.Artwork {
+		margin-left: 234px;
+		margin-top: 129px;
+	}
+
+	.Artwork__logo {}
+	.Download__app {}
+	.Show__everyone {}
+	.platforms2 {}
+	.appStore {}
+	.download_on_the {}
+	.app_store {}
+	.googlePlay {}
+	.get_it_on {}
+	.google_play {}
+	.footer__rectangle {}
+	.footer__batyr__logo {}
+	.middle1 {}
+	.Forma_1 {}
+	.Forma_2 {}
+	.Forma_3 {}
+	.Ospan_Kabdollayev {}
+}
+
+@media (max-width: 540px) {
+	.work_your {display: none;}
+	.a_beginner {display: none;}
+
+	.header__background__image {
+		background-image: url(images/Background_Image.png);
+		background-position: center;
+		height: 720px;
+	}
+
+	.batyr__logo {
+		display: block;
+		width: 137px;
+		height: 50px;
+		padding-left: 0;
+		margin: 0 auto;
+		padding-top: 89px;
+	}
+
+	.for_brave {
+		display: none;
+	}
+
+	.work_your2 {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.76px;
+		padding-top: 131px;
+	}
+
+	.from {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.76px;
+	}
+
+	.a_beginner2 {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.6px;
+	}
+
+	.professional {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.6px;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.platforms {
+		padding-top: 125px;
+	}
+
+	.appStore {
+		width: 142px;
+		height: 39px;
+		box-shadow: 0 10px 16px #0a0e34;
+		padding-top: 11px;
+		padding-left: 20px;
+	}
+
+	.appStore img {
+		width: 15px;
+		height: 17px;
+	}
+
+	.download_on_the {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 25px;
+		margin-top: -22px;
+	}
+
+	.app_store {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 24px;
+		margin-top: 0px;
+	}
+
+	.googlePlay {
+		width: 142px;
+		height: 39px;
+		box-shadow: 0 10px 16px #0a0e34;
+		padding-top: 10px;
+		padding-left: 30px;
+		margin-left: 30px;
+	}
+
+	.googlePlay img {
+		width: 16px;
+		height: 18px;
+	}
+
+	.get_it_on {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-top: -22px;
+		margin-left: 24px;
+	}
+
+	.google_play {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 24px;
+		margin-top: 0px;
+	}
+
+	.menu2 {
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		padding-top: 45px;
+		margin-left: 35px;
+		margin-right: 37px;
+	}
+
+	.workouts {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.nutrition {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.sleep {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.logIn {
+		font-size: 12px;
+		letter-spacing: normal;
+	}
+ 
+	.Diagonal_Line {
+		width: 151px;
+		height: 168px;
+		margin-left: 187px;
+		margin-top: 113px;
+	}
+
+	.New_Level_Photo {
+		height: 257px;
+		margin-left: 160px;
+		margin-top: 83px;
+	}
+
+	.rectangle1 {
+		height: 340px;
+	}
+
+	.plus1 {
+		padding-top: 101px;
+		padding-left: 132px;
+	}
+
+	.plus2 {
+		padding-top: 115px;
+		padding-left: 154px;
+	}
+
+	.new_level {
+		font-size: 50px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 139px;
+		padding-top: 25px;
+	}
+
+	.f01 {display: none;}
+	.rectangleCorn {display: none;}
+	.progression {display: none;}
+	.Each_workout {display: none;}
+
+	.card-1 {display: block;}
+	.card-3 {display: block;}
+
+	.f011 {
+		color: #000000;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 129px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn1 {
+		user-select: none;
+		/**/
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 129px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn1 img {
+		width: 15px;
+		height: 4px;
+	}
+
+	.progression1 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 20px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 153px;
+		margin-top: -42px;
+	}
+
+	.Each_workout1 {
+		color: #000000;
+		font-weight: 400;
+		padding-right: 81px;
+		/**/
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 128px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.f033 {
+		color: #000000;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 129px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn33 {
+		user-select: none;
+		/**/
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 129px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn33 img {
+		width: 17px;
+		height: 4px;
+	}
+
+	.training3 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 20px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 153px;
+		margin-top: -42px;
+	}
+
+	.A_training_calendar3 {
+		font-weight: 400;
+		color: #000000;
+		/**/
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 128px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.rectangle2 {
+		height: 454px;
+		background-color: #f5f4f9;
+	}
+
+	.f02 {
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 129px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn2 {
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 129px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn2 img {
+		width: 17px;
+		height: 4px;
+	}
+
+	.video {
+		font-size: 24px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 153px;
+		margin-top: -43px;
+	}
+
+	.Detailed_video {
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 128px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.rectangle3 {display: none;}
+	.f03 {display: none;}
+	.rectangleCorn3 {display: none;}
+	.training {display: none;}
+	.A_training_calendar {display: none;}
+
+
+
+	.Diagonal_Line2 {
+		width: 78px;
+		height: 91px;
+		right: 235px;
+		margin-top: 145px;
+	}
+
+	.Diagonal_Line3 {
+		width: 93px;
+		height: 109px;
+		right: 280px;
+		margin-top: 245px;
+	}
+
+	.Be_Active_Photo {
+		height: 278px;
+		right: 0px;
+		left: 175px;
+		margin-top: 88px;
+	}
+
+	.rectangle4 {
+		height: 330px;
+		background-color: #ffffff;
+	}
+
+	.plus3 {
+		padding-top: 111px;
+		right: 0px;
+		left: 143px;
+	}
+
+	.plus4 {
+		padding-top: 120px;
+		right: 0px;
+		left: 165px;
+	}
+
+	.be_active {
+		font-size: 50px;
+		padding-top: 35px;
+		padding-left: 149px;
+	}
+
+	.b01 {display: none;}
+	.rectangleCorn4 {display: none;}
+	.connection {display: none;}
+	.install {display: none;}
+
+	.rectangle5 {
+		height: 508px;
+		background-color: #f5f4f9;
+	}
+
+	.rectangle51 {
+		display: block;
+	}
+
+	.b011 {
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		display: block;
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 140px;
+	}
+
+	.rectangleCorn41 {
+		position: absolute;
+		user-select: none;
+		/**/
+		display: block;
+		padding-left: 0px;
+		width: 15px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 140px;
+	}
+
+	.connection1 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		display: block;
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 165px;
+		margin-top: -18px;
+	}
+
+	.install1 {
+		font-weight: 400;
+		/**/
+		display: block;
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 139px;
+	}
+
+	.b02 {
+		display: block;
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 140px;
+	}
+
+	.rectangleCorn5 {
+		display: block;
+		padding-left: 0px;
+		width: 17px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 140px;
+	}
+
+	.progress {
+		display: block;
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 165px;
+		margin-top: -18px;
+	}
+
+	.start {
+		display: block;
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 139px;
+	}
+
+	.plus5 {display: none;}
+	.rectangle6 {display: none;}
+
+	.rectangle51 .b03 {
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 140px;
+	}
+
+	.rectangle51 .rectangleCorn6 {
+		padding-left: 0px;
+		width: 17px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 140px;
+	}
+
+	.rectangle51 .enjoy {
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 165px;
+		margin-top: -18px;
+	}
+
+	.rectangle51 .get {
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 139px;
+	}
+
+	.workouts__background__color {
+		background-color: #fff;
+		height: 1158px;
+	}
+
+	.workouts__box1 {
+		width: 150px;
+		height: 70px;
+		margin-top: 45px;
+		margin-left: 175px;
+	}
+
+	.workouts__box2 {
+		width: 150px;
+		height: 70px;
+		margin-top: 295px;
+		margin-left: 220px;
+	}
+
+	.workouts_photo {
+		width: 300px;
+		padding-top: 55px;
+		margin-left: 123px;
+		position: relative;
+		float: none;
+	}
+
+	.workouts__title {
+	    font-size: 50px;
+	    text-align: center;
+	    padding-right: 0px;
+	    padding-top: 20px;
+	}
+
+	.programsss {
+		display: block;
+	}
+
+	.program01 {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	.program1 {
+		width: 300px;
+		height: 185px;
+		margin-left: 120px;
+	}
+
+	.prored {
+		font-size: 18px;
+		margin-left: 120px;
+	}
+
+	.problack {
+		font-size: 40px;
+		margin-left: 120px;
+	}
+
+	.protrick {
+		font-size: 16px;
+		margin-left: 120px;
+	}
+
+	.program02 {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	.program2 {
+		width: 300px;
+		height: 185px;
+		margin-left: 120px;
+	}
+
+	.prored2 {margin-left: 120px;}
+	.problack2 {margin-left: 120px; font-size: 35px;}
+	.protrick2 {margin-left: 120px; font-size: 14px;}
+
+	.nutrition__background__color {
+		background-color: rgba(10, 14, 52, 0.04);
+		height: 768px;
+	}
+
+	.nutrition__title {
+	    font-size: 50px;
+	    margin-left: 135px;
+	    margin-top: 20px;
+	}
+
+	.Nutrition_for_muscle {
+	    font-size: 29px;
+	    text-align: center;
+	    margin-left: 40px;
+	    margin-top: 120px;
+	}
+
+	.Over_35 {
+	    font-size: 17px;
+	    text-align: center;
+	    margin-top: 230px;
+	    margin-left: 20px;
+	}
+
+	.Nutrition_for {
+	    font-size: 18px;
+	    margin-left: 145px;
+	    margin-top: 300px;
+	}
+
+	.workouts__box3 {
+		width: 150px;
+		height: 70px;
+		margin-top: 395px;
+		right: 215px;
+	}
+
+	.workouts__box4 {
+		width: 150px;
+		height: 70px;
+		margin-top: 640px;
+		right: 175px;
+	}
+
+	.nutrition_photo {
+		width: 300px;
+		padding-top: 400px;
+		margin-right: 123px;
+	}
+
+	.sleep__background__color {
+		background-color: #fff;
+		height: 585px;
+	}
+	.sleep_photo {
+		width: 300px;
+		margin-left: 115px;
+		margin-top: 50px;
+		float: none;
+	}
+
+	.sleep__title {
+	    font-size: 50px;
+	    text-align: center;
+	    padding-right: 0px;
+	    padding-top: 30px;
+	}
+
+	.Sleep_is_the_key1 {
+		width: 300px;
+		float: none;
+		margin-right: 0px;
+		margin-left: 113px;
+		margin-top: 25px;
+	}
+
+	.Sleep_is_the_key {
+	    font-size: 20px;
+	}
+
+	.footer__background__image {
+		height: 720px;
+	}
+
+	.Artwork {
+		width: 73px;
+		height: 78px;
+		margin-left: 235px;
+		margin-top: 147px;
+	}
+
+	.Artwork__logo {
+		text-align: center;
+		padding-top: 10px;
+		margin-top: 0px;
+	}
+
+	.Artwork__logo img {
+		width: 60px;
+	}
+
+	.Download__app {
+		font-size: 34px;
+		text-align: center;
+		letter-spacing: 1.7px;
+		padding-right: 0px;
+		padding-top: 235px;
+	}
+
+	.Show__everyone {
+		font-size: 15px;
+		text-align: center;
+		padding-right: 0px;
+		margin-top: 0px;
+	}
+
+	.platforms2 {
+		padding-top: 142px;
+	}
+
+	.footer__rectangle {
+		height: 50px;
+		margin-top: 195px;
+	}
+
+	.footer__batyr__logo {display: none;}
+
+	.middle1 {
+		margin-top: 0px;
+	 	margin-left: -15px;
+	 	padding-top: 8px;
+	}
+
+	.Forma_1 {width: 10px; height: 18px;}
+	.Forma_2 {width: 18px; height: 15px;}
+	.Forma_3 {width: 17px; height: 17px;}
+
+	.Ospan_Kabdollayev {
+		margin-top: 0px;
+		padding-right: 0px;
+		font-size: 10px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 415px) {
+	.work_your {display: none;}
+	.a_beginner {display: none;}
+
+	.header__background__image {
+		background-image: url(images/Background_Image.png);
+		background-position: center;
+		height: 736px;
+	}
+
+	.batyr__logo {
+		display: block;
+		width: 137px;
+		height: 50px;
+		padding-left: 0;
+		margin: 0 auto;
+		padding-top: 89px;
+	}
+
+	.for_brave {
+		display: none;
+	}
+
+	.work_your2 {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.76px;
+		padding-top: 131px;
+	}
+
+	.from {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.76px;
+	}
+
+	.a_beginner2 {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.6px;
+	}
+
+	.professional {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.6px;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.platforms {
+		padding-top: 125px;
+	}
+
+	.appStore {
+		width: 142px;
+		height: 39px;
+		box-shadow: 0 10px 16px #0a0e34;
+		padding-top: 11px;
+		padding-left: 20px;
+	}
+
+	.appStore img {
+		width: 15px;
+		height: 17px;
+	}
+
+	.download_on_the {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 25px;
+		margin-top: -22px;
+	}
+
+	.app_store {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 24px;
+		margin-top: 0px;
+	}
+
+	.googlePlay {
+		width: 142px;
+		height: 39px;
+		box-shadow: 0 10px 16px #0a0e34;
+		padding-top: 10px;
+		padding-left: 30px;
+		margin-left: 8px;
+	}
+
+	.googlePlay img {
+		width: 16px;
+		height: 18px;
+	}
+
+	.get_it_on {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-top: -22px;
+		margin-left: 24px;
+	}
+
+	.google_play {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 24px;
+		margin-top: 0px;
+	}
+
+	.menu2 {
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		padding-top: 45px;
+		margin-left: 35px;
+		margin-right: 37px;
+	}
+
+	.workouts {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.nutrition {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.sleep {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.logIn {
+		font-size: 12px;
+		letter-spacing: normal;
+	}
+ 
+	.Diagonal_Line {
+		width: 151px;
+		height: 168px;
+		margin-left: 137px;
+		margin-top: 113px;
+	}
+
+	.New_Level_Photo {
+		height: 257px;
+		margin-left: 110px;
+		margin-top: 83px;
+	}
+
+	.rectangle1 {
+		height: 340px;
+	}
+
+	.plus1 {
+		padding-top: 101px;
+		padding-left: 82px;
+	}
+
+	.plus2 {
+		padding-top: 115px;
+		padding-left: 104px;
+	}
+
+	.new_level {
+		font-size: 50px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 69px;
+		padding-top: 25px;
+	}
+
+	.f01 {display: none;}
+	.rectangleCorn {display: none;}
+	.progression {display: none;}
+	.Each_workout {display: none;}
+
+	.card-1 {display: block;}
+	.card-3 {display: block;}
+
+	.f011 {
+		color: #000000;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 59px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn1 {
+		user-select: none;
+		/**/
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 59px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn1 img {
+		width: 15px;
+		height: 4px;
+	}
+
+	.progression1 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 20px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 83px;
+		margin-top: -42px;
+	}
+
+	.Each_workout1 {
+		color: #000000;
+		font-weight: 400;
+		padding-right: 81px;
+		/**/
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 58px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.f033 {
+		color: #000000;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 59px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn33 {
+		user-select: none;
+		/**/
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 59px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn33 img {
+		width: 17px;
+		height: 4px;
+	}
+
+	.training3 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 20px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 83px;
+		margin-top: -42px;
+	}
+
+	.A_training_calendar3 {
+		font-weight: 400;
+		color: #000000;
+		/**/
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 58px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.rectangle2 {
+		height: 454px;
+		background-color: #f5f4f9;
+	}
+
+	.f02 {
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 59px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn2 {
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 59px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn2 img {
+		width: 17px;
+		height: 4px;
+	}
+
+	.video {
+		font-size: 24px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 83px;
+		margin-top: -43px;
+	}
+
+	.Detailed_video {
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 58px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.rectangle3 {display: none;}
+	.f03 {display: none;}
+	.rectangleCorn3 {display: none;}
+	.training {display: none;}
+	.A_training_calendar {display: none;}
+
+
+
+	.Diagonal_Line2 {
+		width: 78px;
+		height: 91px;
+		right: 165px;
+		margin-top: 145px;
+	}
+
+	.Diagonal_Line3 {
+		width: 93px;
+		height: 109px;
+		right: 220px;
+		margin-top: 245px;
+	}
+
+	.Be_Active_Photo {
+		height: 278px;
+		right: 0px;
+		left: 115px;
+		margin-top: 88px;
+	}
+
+	.rectangle4 {
+		height: 330px;
+		background-color: #ffffff;
+	}
+
+	.plus3 {
+		padding-top: 111px;
+		right: 0px;
+		left: 83px;
+	}
+
+	.plus4 {
+		padding-top: 120px;
+		right: 0px;
+		left: 105px;
+	}
+
+	.be_active {
+		font-size: 50px;
+		padding-top: 35px;
+		padding-left: 79px;
+	}
+
+	.b01 {display: none;}
+	.rectangleCorn4 {display: none;}
+	.connection {display: none;}
+	.install {display: none;}
+
+	.rectangle5 {
+		height: 508px;
+		background-color: #f5f4f9;
+	}
+
+	.rectangle51 {
+		display: block;
+	}
+
+	.b011 {
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		display: block;
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 70px;
+	}
+
+	.rectangleCorn41 {
+		position: absolute;
+		user-select: none;
+		/**/
+		display: block;
+		padding-left: 0px;
+		width: 15px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 70px;
+	}
+
+	.connection1 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		display: block;
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 95px;
+		margin-top: -18px;
+	}
+
+	.install1 {
+		font-weight: 400;
+		/**/
+		display: block;
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 69px;
+	}
+
+	.b02 {
+		display: block;
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 70px;
+	}
+
+	.rectangleCorn5 {
+		display: block;
+		padding-left: 0px;
+		width: 17px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 70px;
+	}
+
+	.progress {
+		display: block;
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 95px;
+		margin-top: -18px;
+	}
+
+	.start {
+		display: block;
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 69px;
+	}
+
+	.plus5 {display: none;}
+	.rectangle6 {display: none;}
+
+	.rectangle51 .b03 {
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 70px;
+	}
+
+	.rectangle51 .rectangleCorn6 {
+		padding-left: 0px;
+		width: 17px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 70px;
+	}
+
+	.rectangle51 .enjoy {
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 95px;
+		margin-top: -18px;
+	}
+
+	.rectangle51 .get {
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 69px;
+	}
+
+	.workouts__background__color {
+		background-color: #fff;
+		height: 1158px;
+	}
+
+	.workouts__box1 {
+		width: 150px;
+		height: 70px;
+		margin-top: 45px;
+		margin-left: 115px;
+	}
+
+	.workouts__box2 {
+		width: 150px;
+		height: 70px;
+		margin-top: 295px;
+		margin-left: 160px;
+	}
+
+	.workouts_photo {
+		width: 300px;
+		padding-top: 55px;
+		margin-left: 63px;
+		position: relative;
+		float: none;
+	}
+
+	.workouts__title {
+	    font-size: 50px;
+	    text-align: center;
+	    padding-right: 0px;
+	    padding-top: 20px;
+	}
+
+	.programsss {
+		display: block;
+	}
+
+	.program01 {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	.program1 {
+		width: 300px;
+		height: 185px;
+		margin-left: 60px;
+	}
+
+	.prored {
+		font-size: 18px;
+		margin-left: 60px;
+	}
+
+	.problack {
+		font-size: 40px;
+		margin-left: 60px;
+	}
+
+	.protrick {
+		font-size: 16px;
+		margin-left: 60px;
+	}
+
+	.program02 {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	.program2 {
+		width: 300px;
+		height: 185px;
+		margin-left: 60px;
+	}
+
+	.prored2 {margin-left: 60px;}
+	.problack2 {margin-left: 60px; font-size: 35px;}
+	.protrick2 {margin-left: 60px; font-size: 14px;}
+
+	.nutrition__background__color {
+		background-color: rgba(10, 14, 52, 0.04);
+		height: 768px;
+	}
+
+	.nutrition__title {
+	    font-size: 50px;
+	    margin-left: 75px;
+	    margin-top: 20px;
+	}
+
+	.Nutrition_for_muscle {
+	    font-size: 30px;
+	    text-align: center;
+	    margin-left: 0px;
+	    margin-top: 120px;
+	}
+
+	.Over_35 {
+	    font-size: 18px;
+	    text-align: center;
+	    margin-top: 255px;
+	    margin-left: 0px;
+	}
+
+	.Nutrition_for {
+	    font-size: 18px;
+	    margin-left: 95px;
+	    margin-top: 325px;
+	}
+
+	.workouts__box3 {
+		width: 150px;
+		height: 70px;
+		margin-top: 395px;
+		right: 145px;
+	}
+
+	.workouts__box4 {
+		width: 150px;
+		height: 70px;
+		margin-top: 640px;
+		right: 105px;
+	}
+
+	.nutrition_photo {
+		width: 300px;
+		padding-top: 400px;
+		margin-right: 53px;
+	}
+
+	.sleep__background__color {
+		background-color: #fff;
+		height: 585px;
+	}
+	.sleep_photo {
+		width: 300px;
+		margin-left: 60px;
+		margin-top: 50px;
+		float: none;
+	}
+
+	.sleep__title {
+	    font-size: 50px;
+	    text-align: center;
+	    padding-right: 0px;
+	    padding-top: 30px;
+	}
+
+	.Sleep_is_the_key1 {
+		width: 300px;
+		float: none;
+		margin-right: 0px;
+		margin-left: 63px;
+		margin-top: 25px;
+	}
+
+	.Sleep_is_the_key {
+	    font-size: 20px;
+	}
+
+	.footer__background__image {
+		height: 736px;
+	}
+
+	.Artwork {
+		width: 73px;
+		height: 78px;
+		margin-left: 175px;
+		margin-top: 147px;
+	}
+
+	.Artwork__logo {
+		text-align: center;
+		padding-top: 10px;
+		margin-top: 0px;
+	}
+
+	.Artwork__logo img {
+		width: 60px;
+	}
+
+	.Download__app {
+		font-size: 34px;
+		text-align: center;
+		letter-spacing: 1.7px;
+		padding-right: 0px;
+		padding-top: 235px;
+	}
+
+	.Show__everyone {
+		font-size: 15px;
+		text-align: center;
+		padding-right: 0px;
+		margin-top: 0px;
+	}
+
+	.platforms2 {
+		padding-top: 142px;
+	}
+
+	.footer__rectangle {
+		height: 50px;
+		margin-top: 210px;
+	}
+
+	.footer__batyr__logo {display: none;}
+
+	.middle1 {
+		margin-top: 0px;
+	 	margin-left: -15px;
+	 	padding-top: 8px;
+	}
+
+	.Forma_1 {width: 10px; height: 18px;}
+	.Forma_2 {width: 18px; height: 15px;}
+	.Forma_3 {width: 17px; height: 17px;}
+
+	.Ospan_Kabdollayev {
+		margin-top: 0px;
+		padding-right: 0px;
+		font-size: 10px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 376px) {
+	.header__background__image {
+		background-image: url(images/Background_Image.png);
+		background-position: center;
+		height: 667px;
+	}
+
+	.batyr__logo {
+		display: block;
+		width: 137px;
+		height: 50px;
+		padding-left: 0;
+		margin: 0 auto;
+		padding-top: 59px;
+	}
+
+	.for_brave {
+		display: none;
+	}
+
+	.work_your2 {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.76px;
+		padding-top: 101px;
+	}
+
+	.from {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.76px;
+	}
+
+	.a_beginner2 {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.6px;
+	}
+
+	.professional {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.6px;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.platforms {
+		padding-top: 125px;
+	}
+
+	.appStore {
+		width: 142px;
+		height: 39px;
+		box-shadow: 0 10px 16px #0a0e34;
+		padding-top: 11px;
+		padding-left: 20px;
+	}
+
+	.appStore img {
+		width: 15px;
+		height: 17px;
+	}
+
+	.download_on_the {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 25px;
+		margin-top: -22px;
+	}
+
+	.app_store {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 24px;
+		margin-top: 0px;
+	}
+
+	.googlePlay {
+		width: 142px;
+		height: 39px;
+		box-shadow: 0 10px 16px #0a0e34;
+		padding-top: 10px;
+		padding-left: 30px;
+		margin-left: 8px;
+	}
+
+	.googlePlay img {
+		width: 16px;
+		height: 18px;
+	}
+
+	.get_it_on {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-top: -22px;
+		margin-left: 24px;
+	}
+
+	.google_play {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 24px;
+		margin-top: 0px;
+	}
+
+	.menu2 {
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		padding-top: 45px;
+		margin-left: 35px;
+		margin-right: 37px;
+	}
+
+	.workouts {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.nutrition {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.sleep {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.logIn {
+		font-size: 12px;
+		letter-spacing: normal;
+	}
+ 
+	.Diagonal_Line {
+		width: 151px;
+		height: 168px;
+		margin-left: 107px;
+		margin-top: 113px;
+	}
+
+	.New_Level_Photo {
+		height: 257px;
+		margin-left: 80px;
+		margin-top: 83px;
+	}
+
+	.rectangle1 {
+		height: 340px;
+	}
+
+	.plus1 {
+		padding-top: 101px;
+		padding-left: 52px;
+	}
+
+	.plus2 {
+		padding-top: 115px;
+		padding-left: 74px;
+	}
+
+	.new_level {
+		font-size: 50px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 39px;
+		padding-top: 25px;
+	}
+
+	.f01 {display: none;}
+	.rectangleCorn {display: none;}
+	.progression {display: none;}
+	.Each_workout {display: none;}
+
+	.card-1 {display: block;}
+	.card-3 {display: block;}
+
+	.f011 {
+		color: #000000;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn1 {
+		user-select: none;
+		/**/
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn1 img {
+		width: 15px;
+		height: 4px;
+	}
+
+	.progression1 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 20px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 43px;
+		margin-top: -42px;
+	}
+
+	.Each_workout1 {
+		color: #000000;
+		font-weight: 400;
+		padding-right: 81px;
+		/**/
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 18px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.f033 {
+		color: #000000;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn33 {
+		user-select: none;
+		/**/
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn33 img {
+		width: 17px;
+		height: 4px;
+	}
+
+	.training3 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 20px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 43px;
+		margin-top: -42px;
+	}
+
+	.A_training_calendar3 {
+		font-weight: 400;
+		color: #000000;
+		/**/
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 18px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.rectangle2 {
+		height: 454px;
+		background-color: #f5f4f9;
+	}
+
+	.f02 {
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn2 {
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn2 img {
+		width: 17px;
+		height: 4px;
+	}
+
+	.video {
+		font-size: 24px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 43px;
+		margin-top: -43px;
+	}
+
+	.Detailed_video {
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 18px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.rectangle3 {display: none;}
+	.f03 {display: none;}
+	.rectangleCorn3 {display: none;}
+	.training {display: none;}
+	.A_training_calendar {display: none;}
+
+
+
+	.Diagonal_Line2 {
+		width: 78px;
+		height: 91px;
+		right: 145px;
+		margin-top: 145px;
+	}
+
+	.Diagonal_Line3 {
+		width: 93px;
+		height: 109px;
+		right: 190px;
+		margin-top: 245px;
+	}
+
+	.Be_Active_Photo {
+		height: 278px;
+		right: 0px;
+		left: 95px;
+		margin-top: 88px;
+	}
+
+	.rectangle4 {
+		height: 330px;
+		background-color: #ffffff;
+	}
+
+	.plus3 {
+		padding-top: 111px;
+		right: 0px;
+		left: 63px;
+	}
+
+	.plus4 {
+		padding-top: 120px;
+		right: 0px;
+		left: 85px;
+	}
+
+	.be_active {
+		font-size: 50px;
+		padding-top: 35px;
+		padding-left: 52px;
+	}
+
+	.b01 {display: none;}
+	.rectangleCorn4 {display: none;}
+	.connection {display: none;}
+	.install {display: none;}
+
+	.rectangle5 {
+		height: 508px;
+		background-color: #f5f4f9;
+	}
+
+	.rectangle51 {
+		display: block;
+	}
+
+	.b011 {
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		display: block;
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 20px;
+	}
+
+	.rectangleCorn41 {
+		position: absolute;
+		user-select: none;
+		/**/
+		display: block;
+		padding-left: 0px;
+		width: 15px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 20px;
+	}
+
+	.connection1 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		display: block;
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 45px;
+		margin-top: -18px;
+	}
+
+	.install1 {
+		font-weight: 400;
+		/**/
+		display: block;
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 19px;
+	}
+
+	.b02 {
+		display: block;
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 20px;
+	}
+
+	.rectangleCorn5 {
+		display: block;
+		padding-left: 0px;
+		width: 17px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 20px;
+	}
+
+	.progress {
+		display: block;
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 45px;
+		margin-top: -18px;
+	}
+
+	.start {
+		display: block;
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 19px;
+	}
+
+	.plus5 {display: none;}
+	.rectangle6 {display: none;}
+
+	.rectangle51 .b03 {
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 20px;
+	}
+
+	.rectangle51 .rectangleCorn6 {
+		padding-left: 0px;
+		width: 17px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 20px;
+	}
+
+	.rectangle51 .enjoy {
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 45px;
+		margin-top: -18px;
+	}
+
+	.rectangle51 .get {
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 19px;
+	}
+
+	.workouts__background__color {
+		background-color: #fff;
+		height: 1268px;
+	}
+
+	.workouts__box1 {
+		width: 150px;
+		height: 70px;
+		margin-top: 45px;
+		margin-left: 95px;
+	}
+
+	.workouts__box2 {
+		width: 150px;
+		height: 70px;
+		margin-top: 295px;
+		margin-left: 140px;
+	}
+
+	.workouts_photo {
+		width: 300px;
+		padding-top: 55px;
+		margin-left: 43px;
+		position: relative;
+		float: none;
+	}
+
+	.workouts__title {
+	    font-size: 50px;
+	    text-align: center;
+	    padding-right: 0px;
+	    padding-top: 20px;
+	}
+
+	.programsss {
+		display: block;
+	}
+
+	.program01 {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	.program1 {
+		width: 300px;
+		height: 185px;
+		margin-left: 40px;
+	}
+
+	.prored {
+		font-size: 18px;
+		margin-left: 40px;
+	}
+
+	.problack {
+		font-size: 40px;
+		margin-left: 40px;
+	}
+
+	.protrick {
+		font-size: 16px;
+		margin-left: 40px;
+	}
+
+	.program02 {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	.program2 {
+		width: 300px;
+		height: 185px;
+		margin-left: 40px;
+	}
+
+	.prored2 {margin-left: 40px;}
+	.problack2 {margin-left: 40px;}
+	.protrick2 {margin-left: 40px; font-size: 18px;}
+
+	.nutrition__background__color {
+		background-color: rgba(10, 14, 52, 0.04);
+		height: 768px;
+	}
+
+	.nutrition__title {
+	    font-size: 50px;
+	    margin-left: 50px;
+	    margin-top: 20px;
+	}
+
+	.Nutrition_for_muscle {
+	    font-size: 32px;
+	    text-align: center;
+	    margin-left: 0px;
+	    margin-top: 120px;
+	}
+
+	.Over_35 {
+	    font-size: 18px;
+	    text-align: center;
+	    margin-top: 255px;
+	    margin-left: 0px;
+	}
+
+	.Nutrition_for {
+	    font-size: 18px;
+	    margin-left: 75px;
+	    margin-top: 325px;
+	}
+
+	.workouts__box3 {
+		width: 150px;
+		height: 70px;
+		margin-top: 395px;
+		right: 125px;
+	}
+
+	.workouts__box4 {
+		width: 150px;
+		height: 70px;
+		margin-top: 640px;
+		right: 85px;
+	}
+
+	.nutrition_photo {
+		width: 300px;
+		padding-top: 400px;
+		margin-right: 33px;
+	}
+
+	.sleep__background__color {
+		background-color: #fff;
+		height: 585px;
+	}
+	.sleep_photo {
+		width: 300px;
+		margin-left: 40px;
+		margin-top: 50px;
+		float: none;
+	}
+
+	.sleep__title {
+	    font-size: 50px;
+	    text-align: center;
+	    padding-right: 0px;
+	    padding-top: 30px;
+	}
+
+	.Sleep_is_the_key1 {
+		width: 300px;
+		float: none;
+		margin-right: 0px;
+		margin-left: 43px;
+		margin-top: 25px;
+	}
+
+	.Sleep_is_the_key {
+	    font-size: 20px;
+	}
+
+	.footer__background__image {
+		height: 667px;
+	}
+
+	.Artwork {
+		width: 73px;
+		height: 78px;
+		margin-left: 155px;
+		margin-top: 127px;
+	}
+
+	.Artwork__logo {
+		text-align: center;
+		padding-top: 10px;
+		margin-top: 0px;
+	}
+
+	.Artwork__logo img {
+		width: 60px;
+	}
+
+	.Download__app {
+		font-size: 34px;
+		text-align: center;
+		letter-spacing: 1.7px;
+		padding-right: 0px;
+		padding-top: 235px;
+	}
+
+	.Show__everyone {
+		font-size: 15px;
+		text-align: center;
+		padding-right: 0px;
+		margin-top: 0px;
+	}
+
+	.platforms2 {
+		padding-top: 122px;
+	}
+
+	.footer__rectangle {
+		height: 50px;
+		margin-top: 160px;
+	}
+
+	.footer__batyr__logo {display: none;}
+
+	.middle1 {
+		margin-top: 0px;
+	 	margin-left: -15px;
+	 	padding-top: 8px;
+	}
+
+	.Forma_1 {width: 10px; height: 18px;}
+	.Forma_2 {width: 18px; height: 15px;}
+	.Forma_3 {width: 17px; height: 17px;}
+
+	.Ospan_Kabdollayev {
+		margin-top: 0px;
+		padding-right: 0px;
+		font-size: 10px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 360px) {
+	.header__background__image {
+		background-image: url(images/Background_Image.png);
+		background-position: center;
+		height: 640px;
+	}
+
+	.batyr__logo {
+		display: block;
+		width: 137px;
+		height: 50px;
+		padding-left: 0;
+		margin: 0 auto;
+		padding-top: 59px;
+	}
+
+	.for_brave {
+		display: none;
+	}
+
+	.work_your2 {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.76px;
+		padding-top: 101px;
+	}
+
+	.from {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.76px;
+	}
+
+	.a_beginner2 {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.6px;
+	}
+
+	.professional {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.6px;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.platforms {
+		padding-top: 95px;
+	}
+
+	.appStore {
+		width: 142px;
+		height: 39px;
+		box-shadow: 0 10px 16px #0a0e34;
+		padding-top: 11px;
+		padding-left: 20px;
+	}
+
+	.appStore img {
+		width: 15px;
+		height: 17px;
+	}
+
+	.download_on_the {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 25px;
+		margin-top: -22px;
+	}
+
+	.app_store {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 24px;
+		margin-top: 0px;
+	}
+
+	.googlePlay {
+		width: 142px;
+		height: 39px;
+		box-shadow: 0 10px 16px #0a0e34;
+		padding-top: 10px;
+		padding-left: 30px;
+		margin-left: 8px;
+	}
+
+	.googlePlay img {
+		width: 16px;
+		height: 18px;
+	}
+
+	.get_it_on {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-top: -22px;
+		margin-left: 24px;
+	}
+
+	.google_play {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 24px;
+		margin-top: 0px;
+	}
+
+	.menu2 {
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		padding-top: 45px;
+		margin-left: 35px;
+		margin-right: 37px;
+	}
+
+	.workouts {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.nutrition {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.sleep {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.logIn {
+		font-size: 12px;
+		letter-spacing: normal;
+	}
+ 
+	.Diagonal_Line {
+		width: 151px;
+		height: 168px;
+		margin-left: 107px;
+		margin-top: 113px;
+	}
+
+	.New_Level_Photo {
+		height: 257px;
+		margin-left: 80px;
+		margin-top: 83px;
+	}
+
+	.rectangle1 {
+		height: 340px;
+	}
+
+	.plus1 {
+		padding-top: 101px;
+		padding-left: 52px;
+	}
+
+	.plus2 {
+		padding-top: 115px;
+		padding-left: 74px;
+	}
+
+	.new_level {
+		font-size: 50px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 39px;
+		padding-top: 25px;
+	}
+
+	.f01 {display: none;}
+	.rectangleCorn {display: none;}
+	.progression {display: none;}
+	.Each_workout {display: none;}
+
+	.card-1 {display: block;}
+	.card-3 {display: block;}
+
+	.f011 {
+		color: #000000;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn1 {
+		user-select: none;
+		/**/
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn1 img {
+		width: 15px;
+		height: 4px;
+	}
+
+	.progression1 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 20px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 43px;
+		margin-top: -42px;
+	}
+
+	.Each_workout1 {
+		color: #000000;
+		font-weight: 400;
+		padding-right: 81px;
+		/**/
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 18px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.f033 {
+		color: #000000;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn33 {
+		user-select: none;
+		/**/
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn33 img {
+		width: 17px;
+		height: 4px;
+	}
+
+	.training3 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 20px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 43px;
+		margin-top: -42px;
+	}
+
+	.A_training_calendar3 {
+		font-weight: 400;
+		color: #000000;
+		/**/
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 18px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.rectangle2 {
+		height: 454px;
+		background-color: #f5f4f9;
+	}
+
+	.f02 {
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn2 {
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn2 img {
+		width: 17px;
+		height: 4px;
+	}
+
+	.video {
+		font-size: 24px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 43px;
+		margin-top: -43px;
+	}
+
+	.Detailed_video {
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 18px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.rectangle3 {display: none;}
+	.f03 {display: none;}
+	.rectangleCorn3 {display: none;}
+	.training {display: none;}
+	.A_training_calendar {display: none;}
+
+
+
+	.Diagonal_Line2 {
+		width: 78px;
+		height: 91px;
+		right: 135px;
+		margin-top: 145px;
+	}
+
+	.Diagonal_Line3 {
+		width: 93px;
+		height: 109px;
+		right: 180px;
+		margin-top: 245px;
+	}
+
+	.Be_Active_Photo {
+		height: 278px;
+		right: 0px;
+		left: 95px;
+		margin-top: 88px;
+	}
+
+	.rectangle4 {
+		height: 330px;
+		background-color: #ffffff;
+	}
+
+	.plus3 {
+		padding-top: 111px;
+		right: 0px;
+		left: 63px;
+	}
+
+	.plus4 {
+		padding-top: 120px;
+		right: 0px;
+		left: 85px;
+	}
+
+	.be_active {
+		font-size: 50px;
+		padding-top: 35px;
+		padding-left: 52px;
+	}
+
+	.b01 {display: none;}
+	.rectangleCorn4 {display: none;}
+	.connection {display: none;}
+	.install {display: none;}
+
+	.rectangle5 {
+		height: 508px;
+		background-color: #f5f4f9;
+	}
+
+	.rectangle51 {
+		display: block;
+	}
+
+	.b011 {
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		display: block;
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 20px;
+	}
+
+	.rectangleCorn41 {
+		position: absolute;
+		user-select: none;
+		/**/
+		display: block;
+		padding-left: 0px;
+		width: 15px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 20px;
+	}
+
+	.connection1 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		display: block;
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 45px;
+		margin-top: -18px;
+	}
+
+	.install1 {
+		font-weight: 400;
+		/**/
+		display: block;
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 19px;
+	}
+
+	.b02 {
+		display: block;
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 20px;
+	}
+
+	.rectangleCorn5 {
+		display: block;
+		padding-left: 0px;
+		width: 17px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 20px;
+	}
+
+	.progress {
+		display: block;
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 45px;
+		margin-top: -18px;
+	}
+
+	.start {
+		display: block;
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 19px;
+	}
+
+	.plus5 {display: none;}
+	.rectangle6 {display: none;}
+
+	.rectangle51 .b03 {
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 20px;
+	}
+
+	.rectangle51 .rectangleCorn6 {
+		padding-left: 0px;
+		width: 17px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 20px;
+	}
+
+	.rectangle51 .enjoy {
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 45px;
+		margin-top: -18px;
+	}
+
+	.rectangle51 .get {
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 19px;
+	}
+
+	.workouts__background__color {
+		background-color: #fff;
+		height: 1268px;
+	}
+
+	.workouts__box1 {
+		width: 150px;
+		height: 70px;
+		margin-top: 45px;
+		margin-left: 85px;
+	}
+
+	.workouts__box2 {
+		width: 150px;
+		height: 70px;
+		margin-top: 295px;
+		margin-left: 130px;
+	}
+
+	.workouts_photo {
+		width: 300px;
+		padding-top: 55px;
+		margin-left: 33px;
+		position: relative;
+		float: none;
+	}
+
+	.workouts__title {
+	    font-size: 50px;
+	    text-align: center;
+	    padding-right: 0px;
+	    padding-top: 20px;
+	}
+
+	.programsss {
+		display: block;
+	}
+
+	.program01 {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	.program1 {
+		width: 300px;
+		height: 185px;
+		margin-left: 30px;
+	}
+
+	.prored {
+		font-size: 18px;
+		margin-left: 30px;
+	}
+
+	.problack {
+		font-size: 40px;
+		margin-left: 30px;
+	}
+
+	.protrick {
+		font-size: 19px;
+		margin-left: 30px;
+	}
+
+	.program02 {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	.program2 {
+		width: 300px;
+		height: 185px;
+		margin-left: 30px;
+	}
+
+	.prored2 {margin-left: 30px;}
+	.problack2 {margin-left: 30px;}
+	.protrick2 {margin-left: 30px;}
+
+	.nutrition__background__color {
+		background-color: rgba(10, 14, 52, 0.04);
+		height: 768px;
+	}
+
+	.nutrition__title {
+	    font-size: 50px;
+	    margin-left: 50px;
+	    margin-top: 20px;
+	}
+
+	.Nutrition_for_muscle {
+	    font-size: 32px;
+	    text-align: center;
+	    margin-left: 0px;
+	    margin-top: 120px;
+	}
+
+	.Over_35 {
+	    font-size: 18px;
+	    text-align: center;
+	    margin-top: 255px;
+	    margin-left: 0px;
+	}
+
+	.Nutrition_for {
+	    font-size: 18px;
+	    margin-left: 65px;
+	    margin-top: 325px;
+	}
+
+	.workouts__box3 {
+		width: 150px;
+		height: 70px;
+		margin-top: 395px;
+		right: 115px;
+	}
+
+	.workouts__box4 {
+		width: 150px;
+		height: 70px;
+		margin-top: 640px;
+		right: 75px;
+	}
+
+	.nutrition_photo {
+		width: 300px;
+		padding-top: 400px;
+		margin-right: 23px;
+	}
+
+	.sleep__background__color {
+		background-color: #fff;
+		height: 585px;
+	}
+	.sleep_photo {
+		width: 300px;
+		margin-left: 30px;
+		margin-top: 50px;
+		float: none;
+	}
+
+	.sleep__title {
+	    font-size: 50px;
+	    text-align: center;
+	    padding-right: 0px;
+	    padding-top: 30px;
+	}
+
+	.Sleep_is_the_key1 {
+		width: 300px;
+		float: none;
+		margin-right: 0px;
+		margin-left: 33px;
+		margin-top: 25px;
+	}
+
+	.Sleep_is_the_key {
+	    font-size: 20px;
+	}
+
+	.footer__background__image {
+		height: 640px;
+	}
+
+	.Artwork {
+		width: 73px;
+		height: 78px;
+		margin-left: 145px;
+		margin-top: 117px;
+	}
+
+	.Artwork__logo {
+		text-align: center;
+		padding-top: 10px;
+		margin-top: 0px;
+	}
+
+	.Artwork__logo img {
+		width: 60px;
+	}
+
+	.Download__app {
+		font-size: 34px;
+		text-align: center;
+		letter-spacing: 1.7px;
+		padding-right: 0px;
+		padding-top: 235px;
+	}
+
+	.Show__everyone {
+		font-size: 15px;
+		text-align: center;
+		padding-right: 0px;
+		margin-top: 0px;
+	}
+
+	.platforms2 {
+		padding-top: 102px;
+	}
+
+	.footer__rectangle {
+		height: 50px;
+		margin-top: 152px;
+	}
+
+	.footer__batyr__logo {display: none;}
+
+	.middle1 {
+		margin-top: 0px;
+	 	margin-left: -15px;
+	 	padding-top: 8px;
+	}
+
+	.Forma_1 {width: 10px; height: 18px;}
+	.Forma_2 {width: 18px; height: 15px;}
+	.Forma_3 {width: 17px; height: 17px;}
+
+	.Ospan_Kabdollayev {
+		margin-top: 0px;
+		padding-right: 0px;
+		font-size: 10px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 320px) {
+	.header__background__image {
+		background-image: url(images/Background_Image.png);
+		background-position: center;
+		height: 568px;
+	}
+
+	.batyr__logo {
+		display: block;
+		width: 137px;
+		height: 50px;
+		padding-left: 0;
+		margin: 0 auto;
+		padding-top: 39px;
+	}
+
+	.for_brave {
+		display: none;
+	}
+
+	.work_your2 {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.76px;
+		padding-top: 101px;
+	}
+
+	.from {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.76px;
+	}
+
+	.a_beginner2 {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.6px;
+	}
+
+	.professional {
+		display: block;
+		font-size: 32px;
+		letter-spacing: 1.6px;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.platforms {
+		padding-top: 75px;
+	}
+
+	.appStore {
+		width: 142px;
+		height: 39px;
+		box-shadow: 0 10px 16px #0a0e34;
+		padding-top: 11px;
+		padding-left: 20px;
+	}
+
+	.appStore img {
+		width: 15px;
+		height: 17px;
+	}
+
+	.download_on_the {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 25px;
+		margin-top: -22px;
+	}
+
+	.app_store {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 24px;
+		margin-top: 0px;
+	}
+
+	.googlePlay {
+		width: 142px;
+		height: 39px;
+		box-shadow: 0 10px 16px #0a0e34;
+		padding-top: 10px;
+		padding-left: 30px;
+		margin-left: 8px;
+	}
+
+	.googlePlay img {
+		width: 16px;
+		height: 18px;
+	}
+
+	.get_it_on {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-top: -22px;
+		margin-left: 24px;
+	}
+
+	.google_play {
+		font-size: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 24px;
+		margin-top: 0px;
+	}
+
+	.menu2 {
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		padding-top: 45px;
+		margin-left: 35px;
+		margin-right: 37px;
+	}
+
+	.workouts {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.nutrition {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.sleep {
+		font-size: 12px;
+		letter-spacing: normal;
+		margin-right: 0px;
+	}
+
+	.logIn {
+		font-size: 12px;
+		letter-spacing: normal;
+	}
+ 
+	.Diagonal_Line {
+		width: 151px;
+		height: 168px;
+		margin-left: 87px;
+		margin-top: 113px;
+	}
+
+	.New_Level_Photo {
+		height: 257px;
+		margin-left: 60px;
+		margin-top: 83px;
+	}
+
+	.rectangle1 {
+		height: 340px;
+	}
+
+	.plus1 {
+		padding-top: 101px;
+		padding-left: 52px;
+	}
+
+	.plus2 {
+		padding-top: 115px;
+		padding-left: 74px;
+	}
+
+	.new_level {
+		font-size: 50px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		padding-top: 25px;
+	}
+
+	.f01 {display: none;}
+	.rectangleCorn {display: none;}
+	.progression {display: none;}
+	.Each_workout {display: none;}
+
+	.card-1 {display: block;}
+	.card-3 {display: block;}
+
+	.f011 {
+		color: #000000;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn1 {
+		user-select: none;
+		/**/
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn1 img {
+		width: 15px;
+		height: 4px;
+	}
+
+	.progression1 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 20px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 43px;
+		margin-top: -42px;
+	}
+
+	.Each_workout1 {
+		color: #000000;
+		font-weight: 400;
+		padding-right: 81px;
+		/**/
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 18px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.f033 {
+		color: #000000;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn33 {
+		user-select: none;
+		/**/
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn33 img {
+		width: 17px;
+		height: 4px;
+	}
+
+	.training3 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		font-size: 20px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 43px;
+		margin-top: -42px;
+	}
+
+	.A_training_calendar3 {
+		font-weight: 400;
+		color: #000000;
+		/**/
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 18px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.rectangle2 {
+		height: 454px;
+		background-color: #f5f4f9;
+	}
+
+	.f02 {
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		padding-top: 25px;
+	}
+
+	.rectangleCorn2 {
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 19px;
+		margin-top: -11px;
+	}
+
+	.rectangleCorn2 img {
+		width: 17px;
+		height: 4px;
+	}
+
+	.video {
+		font-size: 24px;
+		letter-spacing: 1.4px;
+		text-align: left;
+		padding-right: 0px;
+		padding-left: 43px;
+		margin-top: -43px;
+	}
+
+	.Detailed_video {
+		width: 288px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		margin-left: 18px;
+		margin-right: 0px;
+		padding-top: 15px;
+	}
+
+	.rectangle3 {display: none;}
+	.f03 {display: none;}
+	.rectangleCorn3 {display: none;}
+	.training {display: none;}
+	.A_training_calendar {display: none;}
+
+
+
+	.Diagonal_Line2 {
+		width: 78px;
+		height: 91px;
+		right: 115px;
+		margin-top: 145px;
+	}
+
+	.Diagonal_Line3 {
+		width: 93px;
+		height: 109px;
+		right: 160px;
+		margin-top: 245px;
+	}
+
+	.Be_Active_Photo {
+		height: 278px;
+		right: 0px;
+		left: 75px;
+		margin-top: 88px;
+	}
+
+	.rectangle4 {
+		height: 330px;
+		background-color: #ffffff;
+	}
+
+	.plus3 {
+		padding-top: 111px;
+		right: 0px;
+		left: 63px;
+	}
+
+	.plus4 {
+		padding-top: 120px;
+		right: 0px;
+		left: 85px;
+	}
+
+	.be_active {
+		font-size: 50px;
+		padding-top: 35px;
+		padding-left: 22px;
+	}
+
+	.b01 {display: none;}
+	.rectangleCorn4 {display: none;}
+	.connection {display: none;}
+	.install {display: none;}
+
+	.rectangle5 {
+		height: 508px;
+		background-color: #f5f4f9;
+	}
+
+	.rectangle51 {
+		display: block;
+	}
+
+	.b011 {
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		display: block;
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 20px;
+	}
+
+	.rectangleCorn41 {
+		position: absolute;
+		user-select: none;
+		/**/
+		display: block;
+		padding-left: 0px;
+		width: 15px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 20px;
+	}
+
+	.connection1 {
+		color: #c1c1c1;
+		font-weight: 700;
+		text-transform: uppercase;
+		/**/
+		display: block;
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 45px;
+		margin-top: -18px;
+	}
+
+	.install1 {
+		font-weight: 400;
+		/**/
+		display: block;
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 19px;
+	}
+
+	.b02 {
+		display: block;
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 20px;
+	}
+
+	.rectangleCorn5 {
+		display: block;
+		padding-left: 0px;
+		width: 17px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 20px;
+	}
+
+	.progress {
+		display: block;
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 45px;
+		margin-top: -18px;
+	}
+
+	.start {
+		display: block;
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 19px;
+	}
+
+	.plus5 {display: none;}
+	.rectangle6 {display: none;}
+
+	.rectangle51 .b03 {
+		color: #000000;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+		padding-top: 53px;
+		padding-left: 20px;
+	}
+
+	.rectangle51 .rectangleCorn6 {
+		padding-left: 0px;
+		width: 17px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #5e42b0;
+		margin-left: 20px;
+	}
+
+	.rectangle51 .enjoy {
+		font-size: 22px;
+		letter-spacing: 1.4px;
+		padding-left: 45px;
+		margin-top: -18px;
+	}
+
+	.rectangle51 .get {
+		width: 270px;
+		color: #000000;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		padding-top: 20px;
+		margin-left: 19px;
+	}
+
+	.workouts__background__color {
+		background-color: #fff;
+		height: 1268px;
+	}
+
+	.workouts__box1 {
+		width: 150px;
+		height: 70px;
+		margin-top: 45px;
+		margin-left: 65px;
+	}
+
+	.workouts__box2 {
+		width: 150px;
+		height: 70px;
+		margin-top: 295px;
+		margin-left: 110px;
+	}
+
+	.workouts_photo {
+		width: 300px;
+		padding-top: 55px;
+		margin-left: 13px;
+		position: relative;
+		float: none;
+	}
+
+	.workouts__title {
+	    font-size: 50px;
+	    text-align: center;
+	    padding-right: 0px;
+	    padding-top: 20px;
+	}
+
+	.programsss {
+		display: block;
+	}
+
+	.program01 {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	.program1 {
+		width: 300px;
+		height: 185px;
+		margin-left: 10px;
+	}
+
+	.prored {
+		font-size: 18px;
+		margin-left: 10px;
+	}
+
+	.problack {
+		font-size: 40px;
+		margin-left: 10px;
+	}
+
+	.protrick {
+		font-size: 19px;
+		margin-left: 10px;
+	}
+
+	.program02 {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	.program2 {
+		width: 300px;
+		height: 185px;
+		margin-left: 10px;
+	}
+
+	.prored2 {margin-left: 10px;}
+	.problack2 {margin-left: 10px;}
+	.protrick2 {margin-left: 10px;}
+
+	.nutrition__background__color {
+		background-color: rgba(10, 14, 52, 0.04);
+		height: 768px;
+	}
+
+	.nutrition__title {
+	    font-size: 50px;
+	    margin-left: 30px;
+	    margin-top: 20px;
+	}
+
+	.Nutrition_for_muscle {
+	    font-size: 32px;
+	    text-align: center;
+	    margin-left: 0px;
+	    margin-top: 120px;
+	}
+
+	.Over_35 {
+	    font-size: 18px;
+	    text-align: center;
+	    margin-top: 255px;
+	    margin-left: 0px;
+	}
+
+	.Nutrition_for {
+	    font-size: 18px;
+	    margin-left: 45px;
+	    margin-top: 325px;
+	}
+
+	.workouts__box3 {
+		width: 150px;
+		height: 70px;
+		margin-top: 395px;
+		right: 105px;
+	}
+
+	.workouts__box4 {
+		width: 150px;
+		height: 70px;
+		margin-top: 640px;
+		right: 65px;
+	}
+
+	.nutrition_photo {
+		width: 300px;
+		padding-top: 400px;
+		margin-right: 13px;
+	}
+
+	.sleep__background__color {
+		background-color: #fff;
+		height: 585px;
+	}
+	.sleep_photo {
+		width: 300px;
+		margin-left: 10px;
+		margin-top: 50px;
+		float: none;
+	}
+
+	.sleep__title {
+	    font-size: 50px;
+	    text-align: center;
+	    padding-right: 0px;
+	    padding-top: 30px;
+	}
+
+	.Sleep_is_the_key1 {
+		width: 300px;
+		float: none;
+		margin-right: 0px;
+		margin-left: 13px;
+		margin-top: 25px;
+	}
+
+	.Sleep_is_the_key {
+	    font-size: 20px;
+	}
+
+	.footer__background__image {
+		height: 568px;
+	}
+
+	.Artwork {
+		width: 73px;
+		height: 78px;
+		margin-left: 125px;
+		margin-top: 107px;
+	}
+
+	.Artwork__logo {
+		text-align: center;
+		padding-top: 10px;
+		margin-top: 0px;
+	}
+
+	.Artwork__logo img {
+		width: 60px;
+	}
+
+	.Download__app {
+		font-size: 34px;
+		text-align: center;
+		letter-spacing: 1.7px;
+		padding-right: 0px;
+		padding-top: 235px;
+	}
+
+	.Show__everyone {
+		font-size: 15px;
+		text-align: center;
+		padding-right: 0px;
+		margin-top: 0px;
+	}
+
+	.platforms2 {
+		padding-top: 72px;
+	}
+
+	.footer__rectangle {
+		height: 50px;
+		margin-top: 112px;
+	}
+
+	.footer__batyr__logo {display: none;}
+
+	.middle1 {
+		margin-top: 0px;
+	 	margin-left: -15px;
+	 	padding-top: 8px;
+	}
+
+	.Forma_1 {width: 10px; height: 18px;}
+	.Forma_2 {width: 18px; height: 15px;}
+	.Forma_3 {width: 17px; height: 17px;}
+
+	.Ospan_Kabdollayev {
+		margin-top: 0px;
+		padding-right: 0px;
+		font-size: 10px;
+		text-align: center;
+	}
+}
